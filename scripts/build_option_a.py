@@ -37,12 +37,18 @@ foreach ($map as $slug => $terms) {
     if ($terms['tags']) { wp_set_object_terms($id, $terms['tags'], 'post_tag', true); }
 }
 
-// 2. Remove default sample content and the now-empty live 'Uncategorised' term
+// 2. Remove default sample content; drop 'Uncategorised' where a post has another category, then delete it if empty
 wp_delete_post(1, true);
 $sample = get_page_by_path('sample-page');
 if ($sample) { wp_delete_post($sample->ID, true); }
 $unc = get_term_by('slug', 'uncategorised', 'category');
-if ($unc && $unc->count == 0) { wp_delete_term($unc->term_id, 'category'); }
+if ($unc) {
+    foreach (get_objects_in_term($unc->term_id, 'category') as $pid) {
+        if (count(wp_get_post_categories($pid)) > 1) { wp_remove_object_terms($pid, $unc->term_id, 'category'); }
+    }
+    $unc = get_term($unc->term_id, 'category');
+    if ($unc && $unc->count == 0) { wp_delete_term($unc->term_id, 'category'); }
+}
 
 // 3. Events hub: type links plus a Query Loop fed by the Event category
 $event = get_term_by('name', 'Event', 'category');
