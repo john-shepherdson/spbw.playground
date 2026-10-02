@@ -81,7 +81,7 @@ $about = get_page_by_path('about-us');
 if ($h && $about) { wp_update_post(['ID' => $h->ID, 'post_title' => 'Our History', 'post_name' => 'our-history', 'post_parent' => $about->ID]); }
 
 function spbw_url($i) {
-    if (isset($i['path'])) { $p = get_page_by_path($i['path']); return $p ? get_permalink($p) : home_url('/'); }
+    if (isset($i['path'])) { $p = get_page_by_path($i['path']); return $p ? get_permalink($p) : '#missing-page:' . $i['path']; }
     return home_url($i['url']);
 }
 function spbw_block($i) {
@@ -101,7 +101,42 @@ wp_insert_post(['post_type' => 'wp_navigation', 'post_status' => 'publish', 'pos
 """
 
 
+def _final_paths():
+    """Page paths after SLUG_FIXES and the Our History move, from content/*.json."""
+    pages = []
+    for f in ("pages", "pages_archived"):
+        pages += json.loads((ROOT / "content" / f"{f}.json").read_text())
+    by = {p["id"]: p for p in pages}
+
+    def path(p):
+        parts = []
+        while p:
+            parts.append(p["slug"])
+            p = by.get(p["parent"])
+        return "/".join(reversed(parts))
+
+    out = set()
+    for pg in pages:
+        pth = path(pg)
+        if pth == "society-history":
+            pth = "about-us/our-history"
+        for old, new, _ in SLUG_FIXES:
+            if pth == old or pth.startswith(old + "/"):
+                parent = old.rsplit("/", 1)[0] + "/" if "/" in old else ""
+                pth = parent + new + pth[len(old):]
+        out.add(pth)
+    return out
+
+
+def _check(items, valid):
+    for i in items:
+        if "path" in i and i["path"] not in valid:
+            raise ValueError(f"menu path not found after renames: {i['path']}")
+        _check(i.get("children", []), valid)
+
+
 def step(events):
+    _check(menu(events), _final_paths())
     php = (PHP.replace("__RETIRE__", json.dumps(RETIRE))
               .replace("__FIXES__", json.dumps(SLUG_FIXES))
               .replace("__MENU__", json.dumps(menu(events))))

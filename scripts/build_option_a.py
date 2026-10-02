@@ -67,6 +67,6 @@ bp["meta"] = {**base["meta"], "title": "SPBW Option A: categories and tags drive
               "description": "Baseline plus a real taxonomy and an auto-populated Events Hub page (Query Loop). No plugins."}
 bp["landingPage"] = "/events-hub/"
 bp["steps"] = base["steps"] + [step]
-bp["steps"].append(structure_step({"url": "/events-hub/", "children": [{"label": "National Weekend", "path": "national-and-regional-news-2/national-weekend"}]}))
+bp["steps"].append(structure_step({"url": "/events-hub/", "children": [{"label": "National Weekend", "path": "national-and-regional-news/national-weekend"}]}))
 (ROOT / "blueprints" / "option-a.json").write_text(json.dumps(bp, indent=2))
 print("wrote blueprints/option-a.json with", len(by_slug), "posts mapped")

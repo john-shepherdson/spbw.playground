@@ -102,7 +102,7 @@ bp["steps"] = base["steps"] + [
      "options": {"activate": True}},
     {"step": "runPHP", "code": php},
 ]
-bp["steps"].append(structure_step({"url": "/events/", "children": [{"label": "Upcoming events", "url": "/events/"}, {"label": "Past events", "url": "/events/list/?eventDisplay=past"}, {"label": "National Weekend", "path": "national-and-regional-news-2/national-weekend"}]}))
+bp["steps"].append(structure_step({"url": "/events/", "children": [{"label": "Upcoming events", "url": "/events/"}, {"label": "Past events", "url": "/events/list/?eventDisplay=past"}, {"label": "National Weekend", "path": "national-and-regional-news/national-weekend"}]}))
 (ROOT / "blueprints" / "option-b.json").write_text(json.dumps(bp, indent=2))
 src = {}
 for v in events.values():
