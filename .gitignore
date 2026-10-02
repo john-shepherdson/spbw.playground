@@ -61,3 +61,6 @@ nbdist/
 .nb-gradle/
 .vscode/
 bin/
+
+### Private data (WordPress exports with drafts and user details) ###
+private/
