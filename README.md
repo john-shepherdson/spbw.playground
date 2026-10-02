@@ -15,11 +15,15 @@ Python 3 (standard library only).
 
 ## Project Structure
 
-- `scripts/fetch_content.py` - pulls published posts, pages, categories, tags
-  and media metadata from the spbw.beer REST API into `content/`.
-- `scripts/fetch_archived.py` - the live site uses a custom `archive` status
-  that the REST API list hides, so this fetches those posts/pages by ID (found
-  via the sitemap).
+- `scripts/import_export.py` - converts a WordPress admin export (the "All
+  content" option under Tools, Export, kept in the git-ignored `private/`
+  folder) into `content/*.json`. Only published and archived posts and pages are
+  kept, so drafts, users and logs never reach the repo. This is the main content
+  source.
+- `scripts/fetch_content.py` and `scripts/fetch_archived.py` - the earlier route
+  when there was no admin access: pull content from the public REST API and, for
+  the custom `archive` status that the API list hides, by ID via the sitemap.
+  These produce theme-processed text, so prefer the export.
 - `scripts/build_wxr.py` - builds `wxr/spbw-baseline.xml` from `content/`.
   Archived items are imported as published with meta
   `_spbw_original_status=archive`.
@@ -31,8 +35,9 @@ Python 3 (standard library only).
   Media Library, and the script that generated the placeholders.
 - `scripts/classify_posts.py` - keyword rules that assign categories and tags to
   posts (`config/option-a-classification.json`).
-- `scripts/event_dates.py` - heuristic extraction of event dates from post
-  titles and text.
+- `scripts/event_tables.py` - parses the hand-maintained event tables on the
+  live events pages (Event, Date/Time, Venue, Details, Contact) into dated
+  events with times and venues.
 - `scripts/structure.py` - shared step for every option: Photo Gallery and `-2`
   slug fixes, Our History under About us, and the proposed main menu
   (`redirects/structure.csv`).
@@ -42,9 +47,9 @@ Python 3 (standard library only).
   `structure.csv`). Old URLs are not redirected automatically in every case, so
   these are required.
 
-Refresh: run `fetch_content.py`, `fetch_archived.py` and `build_wxr.py`, then
-`build_baseline.py` and `classify_posts.py`, then the three `build_option_*.py`
-scripts.
+Refresh: export the content from WordPress admin into `private/`, then run
+`import_export.py <file>`, `build_wxr.py`, `build_baseline.py` and
+`classify_posts.py`, then the three `build_option_*.py` scripts.
 
 ## Options
 
@@ -85,10 +90,13 @@ Notes:
   ```
 
 - Options A and C can be combined. Better categories help the whole site.
-- B converts 77 posts with a date found in the title or text; the date source is
-  stored in meta `_spbw_date_source` for review. Venues, times and RSVP are not
-  extracted.
-- A's classification is keyword-based and needs a human review.
+- B builds 66 events from the live event tables (about 50 with a start time, the
+  rest all-day), with venues. Dates are parsed from free text and one weekday
+  mismatch in the source is flagged in meta `_spbw_date_check`. End times are
+  not in the source, so timed events default to three hours. Posts are left as
+  they are.
+- A keeps the categories editors have already assigned (83 posts) and classifies
+  only the 53 still Uncategorised, using keyword rules that need a human review.
 - All options also apply the structure step: Photo Gallery slugs
   (`/photo-gallery/...`), `-2` slugs removed, the stray `/page-3-april-2026/`
   page retired, Our History under About us, and a proposed menu with 8 top-level
@@ -125,7 +133,8 @@ copied into the repository.
   by [Blueprints](https://wordpress.github.io/wordpress-playground/blueprints/)
   (JSON).
 - WordPress eXtended RSS (WXR) as the import format for site content.
-- Source content from the public WordPress REST API and sitemap of spbw.beer.
+- Source content from a WordPress admin export, and earlier from the public REST
+  API and sitemap of spbw.beer.
 - [The Events Calendar](https://wordpress.org/plugins/the-events-calendar/)
   plugin, installed from wordpress.org by Option B only.
 - A stock WordPress block theme (the Playground default). The live site's
@@ -136,9 +145,12 @@ copied into the repository.
 There are no environment variables, secrets or credentials. Everything is read
 from public endpoints.
 
-- **Source site:** `scripts/fetch_content.py` takes `--base` (default
-  `https://spbw.beer`). `scripts/fetch_archived.py` uses `https://www.spbw.beer`
-  for sitemap and page requests; change `BASE` in the script to point elsewhere.
+- **Source content:** `scripts/import_export.py` takes the path of the export
+  file. The export holds private data (drafts and users, if any exist), so keep
+  it in `private/`, which is git-ignored. For the older route,
+  `scripts/fetch_content.py` takes `--base` (default `https://spbw.beer`) and
+  `scripts/fetch_archived.py` uses `https://www.spbw.beer`; change `BASE` in the
+  script to point elsewhere.
 - **Blueprint settings:** `config/baseline-template.json` sets PHP 8.3, the
   latest WordPress, networking on, the site name, and the date-based permalink
   structure `/%year%/%monthnum%/%day%/%postname%/`. `blueprints/baseline.json`
@@ -152,9 +164,11 @@ from public endpoints.
 - **Post categories and tags (Option A):** edit the keyword rules in
   `scripts/classify_posts.py`; the output is
   `config/option-a-classification.json`.
-- **Event dates (Option B):** the dates and their source (title or text) are in
-  `config/option-b-events.json`. Rules are in `scripts/event_dates.py`, and the
-  list of retired pages is `RETIRED_PAGES` in `scripts/build_option_b.py`.
+- **Events (Option B):** the 66 events, their dates, venues and source page are
+  in `config/option-b-events.json`. Parsing rules are in
+  `scripts/event_tables.py`, duplicate handling and the three-hour default
+  length are in `scripts/build_option_b.py`, along with `RETIRED_PAGES`, the
+  list of retired pages.
 - **Menu and slug fixes:** edit `SLUG_FIXES`, `RETIRE` and `menu()` in
   `scripts/structure.py`. The build checks every menu path and fails if a page
   cannot be found.
