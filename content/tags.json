@@ -1,0 +1,662 @@
+[
+ {
+  "id": 16,
+  "count": 0,
+  "description": "",
+  "link": "https://www.spbw.beer/tag/beer-festival/",
+  "name": "Beer Festival",
+  "slug": "beer-festival",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags/16",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/posts?tags=16"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 15,
+  "count": 1,
+  "description": "",
+  "link": "https://www.spbw.beer/tag/beer-from-the-wood/",
+  "name": "Beer from the Wood",
+  "slug": "beer-from-the-wood",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags/15",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/posts?tags=15"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 21,
+  "count": 0,
+  "description": "",
+  "link": "https://www.spbw.beer/tag/bill-english/",
+  "name": "Bill English",
+  "slug": "bill-english",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags/21",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/posts?tags=21"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 28,
+  "count": 0,
+  "description": "",
+  "link": "https://www.spbw.beer/tag/bristol/",
+  "name": "Bristol",
+  "slug": "bristol",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags/28",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/posts?tags=28"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 26,
+  "count": 0,
+  "description": "",
+  "link": "https://www.spbw.beer/tag/castleford/",
+  "name": "Castleford",
+  "slug": "castleford",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags/26",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/posts?tags=26"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 23,
+  "count": 0,
+  "description": "",
+  "link": "https://www.spbw.beer/tag/central-london/",
+  "name": "Central London",
+  "slug": "central-london",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags/23",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/posts?tags=23"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 13,
+  "count": 0,
+  "description": "",
+  "link": "https://www.spbw.beer/tag/greater-manchester/",
+  "name": "Greater Manchester",
+  "slug": "greater-manchester",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags/13",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/posts?tags=13"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 27,
+  "count": 0,
+  "description": "",
+  "link": "https://www.spbw.beer/tag/london/",
+  "name": "London",
+  "slug": "london",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags/27",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/posts?tags=27"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 22,
+  "count": 0,
+  "description": "",
+  "link": "https://www.spbw.beer/tag/national-weekend/",
+  "name": "National Weekend",
+  "slug": "national-weekend",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags/22",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/posts?tags=22"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 24,
+  "count": 0,
+  "description": "",
+  "link": "https://www.spbw.beer/tag/polo-shirts/",
+  "name": "Polo Shirts",
+  "slug": "polo-shirts",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags/24",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/posts?tags=24"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 14,
+  "count": 0,
+  "description": "",
+  "link": "https://www.spbw.beer/tag/social/",
+  "name": "Social",
+  "slug": "social",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags/14",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/posts?tags=14"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 30,
+  "count": 0,
+  "description": "",
+  "link": "https://www.spbw.beer/tag/south-east/",
+  "name": "South East",
+  "slug": "south-east",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags/30",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/posts?tags=30"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 25,
+  "count": 0,
+  "description": "",
+  "link": "https://www.spbw.beer/tag/walk/",
+  "name": "Walk",
+  "slug": "walk",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags/25",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/posts?tags=25"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 20,
+  "count": 1,
+  "description": "",
+  "link": "https://www.spbw.beer/tag/woodfest/",
+  "name": "Woodfest",
+  "slug": "woodfest",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags/20",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/posts?tags=20"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 29,
+  "count": 0,
+  "description": "",
+  "link": "https://www.spbw.beer/tag/worthing/",
+  "name": "Worthing",
+  "slug": "worthing",
+  "taxonomy": "post_tag",
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags/29",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/tags"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/taxonomies/post_tag"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://www.spbw.beer/wp-json/wp/v2/posts?tags=29"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ }
+]
