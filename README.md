@@ -1,4 +1,4 @@
-[![SQA badge](https://api.eu.badgr.io/public/assertions/<SQAaaS image ID>/image)](https://api.eu.badgr.io/public/badges/<SQAaaS badge ID>)
+[![SQAaaS badge shields.io](https://img.shields.io/badge/sqaaas%20software-silver-lightgrey)](https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/spbw.playground.git.assess.sqaaas/main/.report/assessment_output.json "SQAaaS silver badge achieved")
 
 # SPBW Playground configuration
 
