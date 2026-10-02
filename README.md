@@ -1,6 +1,6 @@
 [![SQA badge](https://api.eu.badgr.io/public/assertions/<SQAaaS image ID>/image)](https://api.eu.badgr.io/public/badges/<SQAaaS badge ID>)
 
-# REPO NAME
+# <REPO_NAME>
 
 This repository contains the source code for <REPO_NAME>
 
