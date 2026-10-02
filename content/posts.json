@@ -1,3545 +1,53 @@
 [
  {
-  "id": 5511,
-  "date": "2026-09-17T12:13:03",
-  "date_gmt": "2026-09-17T11:13:03",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=5511"
-  },
-  "modified": "2026-09-17T12:13:04",
-  "modified_gmt": "2026-09-17T11:13:04",
-  "slug": "tony-littler-quiz-phoenix-brewery-presentation-photos-now-on-page-3-of-the-photo-gallery",
+  "id": 2838,
+  "date": "2024-04-18T17:39:14",
+  "date_gmt": "2024-04-18T16:39:14",
+  "slug": "upcoming-events",
   "status": "publish",
   "type": "post",
-  "link": "https://www.spbw.beer/2026/09/17/tony-littler-quiz-phoenix-brewery-presentation-photos-now-on-page-3-of-the-photo-gallery/",
-  "title": {
-   "rendered": "Tony Littler Quiz &amp; Phoenix Brewery Presentation Photos now on page 3 of the &#8216;Photo Gallery&#8217;"
-  },
-  "content": {
-   "rendered": "",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-5511",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5511",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=5511"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 1,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5511/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 5512,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5511/revisions/5512"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=5511"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=5511"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=5511"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 5400,
-  "date": "2026-08-03T13:09:44",
-  "date_gmt": "2026-08-03T12:09:44",
+  "link": "https://www.spbw.beer/2024/04/18/upcoming-events/",
   "guid": {
-   "rendered": "https://www.spbw.beer/?p=5400"
+   "rendered": "https://www.spbw.beer/?p=2838"
   },
-  "modified": "2026-08-03T13:09:45",
-  "modified_gmt": "2026-08-03T12:09:45",
-  "slug": "national-weekend-october-9th-to-11th",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/08/03/national-weekend-october-9th-to-11th/",
   "title": {
-   "rendered": "National Weekend &#8211; October 9th to 11th"
+   "rendered": "Upcoming Events"
   },
   "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">Further details about the subject event are now up on the &#8216;Upcoming Events&#8217; page.</p>\n",
-   "protected": false
+   "rendered": "<!-- wp:paragraph -->\n<p>Details of the Society's events can be found by going to the <a href=\"https://www.spbw.beer/events/\" data-type=\"page\" data-id=\"2531\">Upcoming Events</a> page, which can be found by going to Events in the menu at the top of every page. </p>\n<!-- /wp:paragraph -->"
   },
   "excerpt": {
-   "rendered": "<p>Further details about the subject event are now up on the &#8216;Upcoming Events&#8217; page.</p>\n",
-   "protected": false
+   "rendered": ""
   },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
+  "parent": 0,
+  "menu_order": 0,
   "categories": [
-   1
+   4
   ],
-  "tags": [],
-  "class_list": [
-   "post-5400",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5400",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=5400"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 1,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5400/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 5401,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5400/revisions/5401"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=5400"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=5400"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=5400"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 5378,
-  "date": "2026-07-30T12:16:13",
-  "date_gmt": "2026-07-30T11:16:13",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=5378"
-  },
-  "modified": "2026-07-30T12:16:14",
-  "modified_gmt": "2026-07-30T11:16:14",
-  "slug": "patrick-deller-dave-hewson-memorial-event",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/07/30/patrick-deller-dave-hewson-memorial-event/",
-  "title": {
-   "rendered": "Patrick Deller-Dave Hewson Memorial Event"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">There is now a photo of the subject May event on Page 3 of the &#8216;Photo Gallery&#8217;</p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>There is now a photo of the subject May event on Page 3 of the &#8216;Photo Gallery&#8217;</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-5378",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5378",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=5378"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 1,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5378/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 5379,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5378/revisions/5379"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=5378"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=5378"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=5378"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 5326,
-  "date": "2026-07-17T04:28:56",
-  "date_gmt": "2026-07-17T03:28:56",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=5326"
-  },
-  "modified": "2026-07-17T04:28:56",
-  "modified_gmt": "2026-07-17T03:28:56",
-  "slug": "bill-english-memorial-trip-to-amsterdam",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/07/17/bill-english-memorial-trip-to-amsterdam/",
-  "title": {
-   "rendered": "Bill English Memorial Trip to Amsterdam"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">Twelve pictures now up on the &#8216;Photo Gallery&#8217; covering the 6th Bill English (DFEB) memorial</p>\n\n\n\n<p class=\"wp-block-paragraph\">trip to Amsterdam July 3rd to 6th 2026</p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>Twelve pictures now up on the &#8216;Photo Gallery&#8217; covering the 6th Bill English (DFEB) memorial trip to Amsterdam July 3rd to 6th 2026</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-5326",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5326",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=5326"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 1,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5326/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 5327,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5326/revisions/5327"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=5326"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=5326"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=5326"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 5273,
-  "date": "2026-07-15T05:19:00",
-  "date_gmt": "2026-07-15T04:19:00",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=5273"
-  },
-  "modified": "2026-07-15T05:19:02",
-  "modified_gmt": "2026-07-15T04:19:02",
-  "slug": "upcoming-events-update",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/07/15/upcoming-events-update/",
-  "title": {
-   "rendered": "Upcoming Events Update"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">The upcoming events page, including some of those in 2027, have now been added</p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>The upcoming events page, including some of those in 2027, have now been added</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-5273",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5273",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=5273"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 1,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5273/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 5274,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5273/revisions/5274"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=5273"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=5273"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=5273"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 5216,
-  "date": "2026-06-28T14:30:23",
-  "date_gmt": "2026-06-28T13:30:23",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=5216"
-  },
-  "modified": "2026-06-28T14:39:36",
-  "modified_gmt": "2026-06-28T13:39:36",
-  "slug": "woodfest-6-voty-volunteer-of-the-year",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/06/28/woodfest-6-voty-volunteer-of-the-year/",
-  "title": {
-   "rendered": "Woodfest 6 VoTY (Volunteer of The Year)"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">At the Wash-Up Meeting for Woodfest 6 presentation of the VoTY to Wanda Piontek by last year&#8217;s winner Angela Aspin.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Picture on Page 3 of the &#8216;Photo Gallery&#8217;</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>At the Wash-Up Meeting for Woodfest 6 presentation of the VoTY to Wanda Piontek by last year&#8217;s winner Angela Aspin. Picture on Page 3 of the &#8216;Photo Gallery&#8217;</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-5216",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5216",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=5216"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 2,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5216/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 5220,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5216/revisions/5220"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=5216"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=5216"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=5216"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 5101,
-  "date": "2026-05-29T08:33:43",
-  "date_gmt": "2026-05-29T07:33:43",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=5101"
-  },
-  "modified": "2026-05-29T08:33:44",
-  "modified_gmt": "2026-05-29T07:33:44",
-  "slug": "woodfest-6-photos-in-photo-gallery",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/05/29/woodfest-6-photos-in-photo-gallery/",
-  "title": {
-   "rendered": "Woodfest 6 Photos in &#8216;Photo Gallery"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">Some pictures from the May 2026 Woodfest 6 are now up on the &#8216;Photo Gallery&#8217; Page 3</p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>Some pictures from the May 2026 Woodfest 6 are now up on the &#8216;Photo Gallery&#8217; Page 3</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-5101",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5101",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=5101"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 1,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5101/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 5102,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5101/revisions/5102"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=5101"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=5101"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=5101"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 5072,
-  "date": "2026-05-28T19:25:00",
-  "date_gmt": "2026-05-28T18:25:00",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=5072"
-  },
-  "modified": "2026-05-30T13:18:28",
-  "modified_gmt": "2026-05-30T12:18:28",
-  "slug": "woodfest-vi-wbob-woodfest-beer-of-britain",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/05/28/woodfest-vi-wbob-woodfest-beer-of-britain/",
-  "title": {
-   "rendered": "Woodfest VI WBOB (Woodfest Beer of Britain)"
-  },
-  "content": {
-   "rendered": "\n<h2 class=\"wp-block-heading\">Lightning Strikes Again &#8211; Tigertops Edwardian Porter wins in successive years</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>See Woodfest News &amp; Info</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>Lightning Strikes Again &#8211; Tigertops Edwardian Porter wins in successive years See Woodfest News &amp; Info</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-5072",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5072",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=5072"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 4,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5072/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 5114,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5072/revisions/5114"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=5072"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=5072"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=5072"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 5017,
-  "date": "2026-04-29T09:15:36",
-  "date_gmt": "2026-04-29T08:15:36",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=5017"
-  },
-  "modified": "2026-04-29T09:15:37",
-  "modified_gmt": "2026-04-29T08:15:37",
-  "slug": "woodfest-vi-beer-list",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/04/29/woodfest-vi-beer-list/",
-  "title": {
-   "rendered": "Woodfest VI Beer List"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">The beer list for the 6th Woodfest at the Musical Museum, Brentford from 14th to 16th May is now up on the website under banner heading &#8216;Woodfest News &amp; Info&#8217;</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>The beer list for the 6th Woodfest at the Musical Museum, Brentford from 14th to 16th May is now up on the website under banner heading &#8216;Woodfest News &amp; Info&#8217;</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-5017",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5017",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=5017"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 1,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5017/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 5018,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/5017/revisions/5018"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=5017"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=5017"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=5017"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4978,
-  "date": "2026-04-25T10:35:57",
-  "date_gmt": "2026-04-25T09:35:57",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4978"
-  },
-  "modified": "2026-04-25T10:37:03",
-  "modified_gmt": "2026-04-25T09:37:03",
-  "slug": "photo-gallery-update-april-2026",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/04/25/photo-gallery-update-april-2026/",
-  "title": {
-   "rendered": "Photo Gallery Update April 2026"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">A third page has been added to the Photo Gallery and the date range of the pages has been added to the title</p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>A third page has been added to the Photo Gallery and the date range of the pages has been added to the title</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4978",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4978",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4978"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 1,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4978/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4979,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4978/revisions/4979"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4978"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4978"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4978"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4914,
-  "date": "2026-04-02T11:22:29",
-  "date_gmt": "2026-04-02T10:22:29",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4914"
-  },
-  "modified": "2026-04-02T11:25:55",
-  "modified_gmt": "2026-04-02T10:25:55",
-  "slug": "woodfest-vi-information",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/04/02/woodfest-vi-information/",
-  "title": {
-   "rendered": "Woodfest VI Information"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\"><strong>Fuller details of Woodfest VI from 14th to 16th May on the &#8216;Woodfests News &amp; Info&#8217; page.</strong></p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>Fuller details of Woodfest VI from 14th to 16th May on the &#8216;Woodfests News &amp; Info&#8217; page.</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4914",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4914",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4914"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 4,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4914/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4918,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4914/revisions/4918"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4914"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4914"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4914"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4902,
-  "date": "2026-03-31T11:12:27",
-  "date_gmt": "2026-03-31T10:12:27",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4902"
-  },
-  "modified": "2026-03-31T11:12:27",
-  "modified_gmt": "2026-03-31T10:12:27",
-  "slug": "ex-pih-editors-roger-jacobson-macclesfield-meander",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/03/31/ex-pih-editors-roger-jacobson-macclesfield-meander/",
-  "title": {
-   "rendered": "Ex PIH Editor&#8217;s (Roger Jacobson) Macclesfield Meander"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\"><strong>Photos of the Macclesfield Meander on 28th March 2026 are now up on Page 2</strong> <strong>of the &#8216;Photo Gallery&#8217;</strong></p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>Photos of the Macclesfield Meander on 28th March 2026 are now up on Page 2 of the &#8216;Photo Gallery&#8217;</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4902",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4902",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4902"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 1,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4902/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4903,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4902/revisions/4903"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4902"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4902"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4902"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4859,
-  "date": "2026-03-09T15:45:03",
-  "date_gmt": "2026-03-09T15:45:03",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4859"
-  },
-  "modified": "2026-03-09T15:45:03",
-  "modified_gmt": "2026-03-09T15:45:03",
-  "slug": "bill-english-dfeb-to-amsterdam-july-3rd-5th",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/03/09/bill-english-dfeb-to-amsterdam-july-3rd-5th/",
-  "title": {
-   "rendered": "BIll English DFEB to Amsterdam July 3rd-5th"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">This is now definitely on. Please see more details on the &#8216;Up Coming Events&#8217; page.</p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>This is now definitely on. Please see more details on the &#8216;Up Coming Events&#8217; page.</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4859",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4859",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4859"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 1,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4859/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4860,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4859/revisions/4860"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4859"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4859"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4859"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4847,
-  "date": "2026-03-08T07:24:27",
-  "date_gmt": "2026-03-08T07:24:27",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4847"
-  },
-  "modified": "2026-03-09T15:21:56",
-  "modified_gmt": "2026-03-09T15:21:56",
-  "slug": "york-wood-crawl-march-2026",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/03/08/york-wood-crawl-march-2026/",
-  "title": {
-   "rendered": "York Wood Crawl &#8211; March 2026"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">A couple of pictures now on website &#8216;Photo Gallery&#8217; page 2</p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>A couple of pictures now on website &#8216;Photo Gallery&#8217; page 2</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4847",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4847",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4847"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 2,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4847/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4851,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4847/revisions/4851"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4847"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4847"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4847"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4829,
-  "date": "2026-03-04T03:31:52",
-  "date_gmt": "2026-03-04T03:31:52",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4829"
-  },
-  "modified": "2026-03-04T03:31:52",
-  "modified_gmt": "2026-03-04T03:31:52",
-  "slug": "richard-graham-annual-memorial-dinner",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/03/04/richard-graham-annual-memorial-dinner/",
-  "title": {
-   "rendered": "Richard Graham Annual Memorial Dinner"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">Ex SPBW National Chair &amp; Treasurer annual memorial dinner on Tuesday 28th April. Details on the Upcoming events page.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>Ex SPBW National Chair &amp; Treasurer annual memorial dinner on Tuesday 28th April. Details on the Upcoming events page.</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4829",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4829",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4829"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 2,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4829/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4831,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4829/revisions/4831"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4829"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4829"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4829"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4808,
-  "date": "2026-02-18T09:56:17",
-  "date_gmt": "2026-02-18T09:56:17",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4808"
-  },
-  "modified": "2026-02-18T09:56:18",
-  "modified_gmt": "2026-02-18T09:56:18",
-  "slug": "york-wooden-cask-crawl",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/02/18/york-wooden-cask-crawl/",
-  "title": {
-   "rendered": "York Wooden Cask Crawl"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">On 7th March a crawl around York has been arranged starting at the</p>\n\n\n\n<p class=\"wp-block-paragraph\">Golden Slipper at 2 PM. See &#8216;Upcoming Events&#8217; for more details.</p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>On 7th March a crawl around York has been arranged starting at the Golden Slipper at 2 PM. See &#8216;Upcoming Events&#8217; for more details.</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4808",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4808",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4808"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 2,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4808/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4810,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4808/revisions/4810"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4808"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4808"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4808"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4761,
-  "date": "2026-02-03T09:39:33",
-  "date_gmt": "2026-02-03T09:39:33",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4761"
-  },
-  "modified": "2026-02-03T09:41:17",
-  "modified_gmt": "2026-02-03T09:41:17",
-  "slug": "auto-draft",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/02/03/auto-draft/",
-  "title": {
-   "rendered": "Products can be collected at the National AGM on 21st March 2026"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\"><strong>This is a reminder that if you are attending the National AGM at the White Horse, London, SW6 4UL on 21st March you can collect products there, avoiding the cost of post and packing.</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Please email ‘</strong><strong><a href=\"mailto:products@spbw.beer\">products@spbw.beer</a>’ </strong><strong>with your order and you will be given the reduced prices and details of how to pay.</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>We do have a small amount of stock on hand, but anything else will need the usual 4 weeks notice to supply, so if you could please submit your order&nbsp;by</strong><strong>&nbsp;12 noon on Friday 20th&nbsp;February at the latest.&nbsp;</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>After that, you may be lucky and require something we already have in stock, so it is worth an email to find out.</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>(LA)</strong></p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>This is a reminder that if you are attending the National AGM at the White Horse, London, SW6 4UL on 21st March you can collect products there, avoiding the cost of post and packing. Please email ‘products@spbw.beer’ with your order and you will be given the reduced prices and details of how to pay. We do [&hellip;]</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4761",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4761",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4761"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 2,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4761/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4764,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4761/revisions/4764"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4761"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4761"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4761"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4711,
-  "date": "2026-01-24T07:19:40",
-  "date_gmt": "2026-01-24T07:19:40",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4711"
-  },
-  "modified": "2026-01-24T07:19:41",
-  "modified_gmt": "2026-01-24T07:19:41",
-  "slug": "mike-hall-memorial-event-19th-january",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/01/24/mike-hall-memorial-event-19th-january/",
-  "title": {
-   "rendered": "Mike Hall Memorial Event &#8211; 19th January"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">A photo of the attendees for the Mike Hall (Ex Chair) memorial event is now up on page 2 of the</p>\n\n\n\n<p class=\"wp-block-paragraph\">&#8216;Photo Gallery&#8217;</p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>A photo of the attendees for the Mike Hall (Ex Chair) memorial event is now up on page 2 of the &#8216;Photo Gallery&#8217;</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4711",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4711",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4711"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 2,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4711/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4713,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4711/revisions/4713"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4711"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4711"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4711"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4690,
-  "date": "2026-01-18T04:13:47",
-  "date_gmt": "2026-01-18T04:13:47",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4690"
-  },
-  "modified": "2026-01-18T04:13:48",
-  "modified_gmt": "2026-01-18T04:13:48",
-  "slug": "6th-bill-english-dfeb-memorial-event-july-2026",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/01/18/6th-bill-english-dfeb-memorial-event-july-2026/",
-  "title": {
-   "rendered": "6th Bill English (DFEB) Memorial Event &#8211; July 2026"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">A provisional date and venue for this annual event has been put on the &#8216;Upcoming Events&#8217; page. Because it has been suggested we hold it on the continent, please look at the event and reply by mid February to the contact if you are interested. Only if sufficient people are interested will further arrangements be made.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>A provisional date and venue for this annual event has been put on the &#8216;Upcoming Events&#8217; page. Because it has been suggested we hold it on the continent, please look at the event and reply by mid February to the contact if you are interested. Only if sufficient people are interested will further arrangements be [&hellip;]</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4690",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4690",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4690"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 2,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4690/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4692,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4690/revisions/4692"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4690"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4690"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4690"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4682,
-  "date": "2026-01-17T17:53:56",
-  "date_gmt": "2026-01-17T17:53:56",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4682"
-  },
-  "modified": "2026-01-17T17:53:57",
-  "modified_gmt": "2026-01-17T17:53:57",
-  "slug": "emmas-birthday-bash-10th-january-2026",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/01/17/emmas-birthday-bash-10th-january-2026/",
-  "title": {
-   "rendered": "Emma&#8217;s Birthday Bash &#8211; 10th January 2026"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">A photo of some of the 30 plus people who attended Emma&#8217;s birthday 7 pub crawl bash in Hampstead, London NW3 is on &#8216;Page 2&#8217; of the Photo Gallery.</p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>A photo of some of the 30 plus people who attended Emma&#8217;s birthday 7 pub crawl bash in Hampstead, London NW3 is on &#8216;Page 2&#8217; of the Photo Gallery.</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4682",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4682",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4682"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 2,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4682/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4684,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4682/revisions/4684"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4682"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4682"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4682"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4672,
-  "date": "2026-01-13T12:13:29",
-  "date_gmt": "2026-01-13T12:13:29",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4672"
-  },
-  "modified": "2026-01-13T12:13:29",
-  "modified_gmt": "2026-01-13T12:13:29",
-  "slug": "patrick-deller-dave-hewson-memorial-walk",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/01/13/patrick-deller-dave-hewson-memorial-walk/",
-  "title": {
-   "rendered": "Patrick Deller/Dave Hewson Memorial Walk"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">The date of this event in May has been announced. See &#8216;Upcoming Events&#8217; for preliminary details.</p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>The date of this event in May has been announced. See &#8216;Upcoming Events&#8217; for preliminary details.</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4672",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4672",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4672"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 2,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4672/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4674,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4672/revisions/4674"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4672"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4672"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4672"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4664,
-  "date": "2026-01-13T11:58:20",
-  "date_gmt": "2026-01-13T11:58:20",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4664"
-  },
-  "modified": "2026-01-13T11:58:21",
-  "modified_gmt": "2026-01-13T11:58:21",
-  "slug": "annual-beer-curry-february-8th",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/01/13/annual-beer-curry-february-8th/",
-  "title": {
-   "rendered": "Annual Beer &amp; Curry February 8th"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">Detailed itinerary is now in &#8216;Upcoming Events&#8217; page</p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>Detailed itinerary is now in &#8216;Upcoming Events&#8217; page</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4664",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4664",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4664"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 2,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4664/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4666,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4664/revisions/4666"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4664"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4664"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4664"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4643,
-  "date": "2026-01-06T11:36:02",
-  "date_gmt": "2026-01-06T11:36:02",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4643"
-  },
-  "modified": "2026-01-06T11:36:02",
-  "modified_gmt": "2026-01-06T11:36:02",
-  "slug": "mike-hall-ex-nat-chair-annual-memorial-walk-19th-january",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2026/01/06/mike-hall-ex-nat-chair-annual-memorial-walk-19th-january/",
-  "title": {
-   "rendered": "Mike Hall (Ex Nat. Chair) Annual Memorial Walk &#8211; 19th January"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">Full details and directons between pubs is now up on the &#8216;Upcoming Events&#8217; page. This is a national event for all branches, especially London branches</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>Full details and directons between pubs is now up on the &#8216;Upcoming Events&#8217; page. This is a national event for all branches, especially London branches</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4643",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4643",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4643"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 1,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4643/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4644,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4643/revisions/4644"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4643"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4643"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4643"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4609,
-  "date": "2025-12-25T10:20:23",
-  "date_gmt": "2025-12-25T10:20:23",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4609"
-  },
-  "modified": "2025-12-25T10:20:23",
-  "modified_gmt": "2025-12-25T10:20:23",
-  "slug": "seasonal-greetings",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2025/12/25/seasonal-greetings/",
-  "title": {
-   "rendered": "Seasonal Greetings"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\"><strong>To all SPBW members a Merry Christmas &amp; a good New Year</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Hopefully with plenty of Wassailing.</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>To all SPBW members a Merry Christmas &amp; a good New Year Hopefully with plenty of Wassailing.</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4609",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4609",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4609"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 1,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4609/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4610,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4609/revisions/4610"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4609"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4609"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4609"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4593,
-  "date": "2025-12-17T09:12:34",
-  "date_gmt": "2025-12-17T09:12:34",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4593"
-  },
-  "modified": "2025-12-17T09:12:34",
-  "modified_gmt": "2025-12-17T09:12:34",
-  "slug": "society-history",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2025/12/17/society-history/",
-  "title": {
-   "rendered": "Society History"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">A new main menu item &#8216;Society History&#8217; has been added to the website.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It gives timeline dates of major events in the 62 year history and a</p>\n\n\n\n<p class=\"wp-block-paragraph\">fuller narrative of the Society&#8217;s history. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Compiled by Roger Jacobson</p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>A new main menu item &#8216;Society History&#8217; has been added to the website. It gives timeline dates of major events in the 62 year history and a fuller narrative of the Society&#8217;s history. Compiled by Roger Jacobson</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4593",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4593",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4593"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 1,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4593/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4594,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4593/revisions/4594"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4593"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4593"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4593"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4586,
-  "date": "2025-12-16T18:48:48",
-  "date_gmt": "2025-12-16T18:48:48",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4586"
-  },
-  "modified": "2025-12-16T18:48:49",
-  "modified_gmt": "2025-12-16T18:48:49",
-  "slug": "cobra-cow-10th-anniversary",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2025/12/16/cobra-cow-10th-anniversary/",
-  "title": {
-   "rendered": "Cobra-Cow 10th Anniversary"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">Photos of the 10th Anniversary party at the &#8216;Blythe Hill Tavern&#8217;, Catford now</p>\n\n\n\n<p class=\"wp-block-paragraph\">in the &#8216;Photo Gallery&#8217; page 2</p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>Photos of the 10th Anniversary party at the &#8216;Blythe Hill Tavern&#8217;, Catford now in the &#8216;Photo Gallery&#8217; page 2</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4586",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4586",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4586"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 2,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4586/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4588,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4586/revisions/4588"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4586"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4586"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4586"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4537,
-  "date": "2025-12-09T18:38:02",
-  "date_gmt": "2025-12-09T18:38:02",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4537"
-  },
-  "modified": "2025-12-09T18:38:02",
-  "modified_gmt": "2025-12-09T18:38:02",
-  "slug": "62nd-anniversary-december-2025",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2025/12/09/62nd-anniversary-december-2025/",
-  "title": {
-   "rendered": "62nd Anniversary December 2025"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">Pictures of the 62nd anniversary gathering at the Rising Sun, Epsom on 7th December, where the society was founded in December 1963 is now on the &#8216;Photo Gallery&#8217; page 2.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>Pictures of the 62nd anniversary gathering at the Rising Sun, Epsom on 7th December, where the society was founded in December 1963 is now on the &#8216;Photo Gallery&#8217; page 2.</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4537",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4537",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4537"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 1,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4537/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4538,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4537/revisions/4538"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4537"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4537"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4537"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
- },
- {
-  "id": 4484,
-  "date": "2025-11-28T11:17:15",
-  "date_gmt": "2025-11-28T11:17:15",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=4484"
-  },
-  "modified": "2025-11-29T04:29:23",
-  "modified_gmt": "2025-11-29T04:29:23",
-  "slug": "website-revamped",
-  "status": "publish",
-  "type": "post",
-  "link": "https://www.spbw.beer/2025/11/28/website-revamped/",
-  "title": {
-   "rendered": "Website Revamped"
-  },
-  "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">The website has been totally re-organised with additions</p>\n\n\n\n<p class=\"wp-block-paragraph\">to the following parent pages as of 28th November 2025:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>About Us.</li>\n\n\n\n<li>National Weekend</li>\n\n\n\n<li>Woodfest News &amp; Info</li>\n\n\n\n<li>Up Coming Events</li>\n\n\n\n<li>Photos of recent events added to Page 2 of &#8216;Photo Gallery&#8217;</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
-   "protected": false
-  },
-  "excerpt": {
-   "rendered": "<p>The website has been totally re-organised with additions to the following parent pages as of 28th November 2025:</p>\n",
-   "protected": false
-  },
-  "author": 11,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
-  "categories": [
-   1
-  ],
-  "tags": [],
-  "class_list": [
-   "post-4484",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-uncategorised",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4484",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/11"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=4484"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 3,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4484/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 4488,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/4484/revisions/4488"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=4484"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=4484"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=4484"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
+  "tags": []
  },
  {
   "id": 2982,
   "date": "2024-05-14T11:28:59",
   "date_gmt": "2024-05-14T10:28:59",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=2982"
-  },
-  "modified": "2024-05-14T11:29:22",
-  "modified_gmt": "2024-05-14T10:29:22",
   "slug": "photos-taken-by-members",
   "status": "publish",
   "type": "post",
   "link": "https://www.spbw.beer/2024/05/14/photos-taken-by-members/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=2982"
+  },
   "title": {
    "rendered": "Photos taken by members"
   },
   "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">I&#8217;ve added some more pictures to the <a href=\"https://www.spbw.beer/photographs-taken-by-spbw-members/\" data-type=\"page\" data-id=\"2879\">Gallery</a>. Thanks to everyone for their contributions, and keep them coming please.</p>\n",
-   "protected": false
+   "rendered": "<!-- wp:paragraph -->\n<p>I've added some more pictures to the <a href=\"https://www.spbw.beer/photographs-taken-by-spbw-members/\" data-type=\"page\" data-id=\"2879\">Gallery</a>. Thanks to everyone for their contributions, and keep them coming please.</p>\n<!-- /wp:paragraph -->"
   },
   "excerpt": {
-   "rendered": "<p>I&#8217;ve added some more pictures to the Gallery. Thanks to everyone for their contributions, and keep them coming please.</p>\n",
-   "protected": false
+   "rendered": ""
   },
-  "author": 10,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
+  "parent": 0,
+  "menu_order": 0,
   "categories": [
    18,
    19
@@ -3547,213 +55,762 @@
   "tags": [
    15,
    20
-  ],
-  "class_list": [
-   "post-2982",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-pictures",
-   "category-website",
-   "tag-beer-from-the-wood",
-   "tag-woodfest",
-   "entry"
-  ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/2982",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/10"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=2982"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 1,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/2982/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 2983,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/2982/revisions/2983"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=2982"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=2982"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=2982"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
+  ]
  },
  {
-  "id": 2838,
-  "date": "2024-04-18T17:39:14",
-  "date_gmt": "2024-04-18T16:39:14",
-  "guid": {
-   "rendered": "https://www.spbw.beer/?p=2838"
-  },
-  "modified": "2024-04-21T10:18:15",
-  "modified_gmt": "2024-04-21T09:18:15",
-  "slug": "upcoming-events",
+  "id": 4484,
+  "date": "2025-11-28T11:17:15",
+  "date_gmt": "2025-11-28T11:17:15",
+  "slug": "website-revamped",
   "status": "publish",
   "type": "post",
-  "link": "https://www.spbw.beer/2024/04/18/upcoming-events/",
+  "link": "https://www.spbw.beer/2025/11/28/website-revamped/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4484"
+  },
   "title": {
-   "rendered": "Upcoming Events"
+   "rendered": "Website Revamped"
   },
   "content": {
-   "rendered": "\n<p class=\"wp-block-paragraph\">Details of the Society&#8217;s events can be found by going to the <a href=\"https://www.spbw.beer/events/\" data-type=\"page\" data-id=\"2531\">Upcoming Events</a> page, which can be found by going to Events in the menu at the top of every page. </p>\n",
-   "protected": false
+   "rendered": "<!-- wp:paragraph -->\n<p>The website has been totally re-organised with additions</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>to the following parent pages as of 28th November 2025:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>About Us.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>National Weekend</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Woodfest News &amp; Info</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Up Coming Events</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Photos of recent events added to Page 2 of 'Photo Gallery'</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->"
   },
   "excerpt": {
-   "rendered": "<p>Details of the Society&#8217;s events can be found by going to the Upcoming Events page, which can be found by going to Events in the menu at the top of every page.</p>\n",
-   "protected": false
+   "rendered": ""
   },
-  "author": 10,
-  "featured_media": 0,
-  "comment_status": "closed",
-  "ping_status": "closed",
-  "sticky": false,
-  "template": "",
-  "format": "standard",
-  "meta": {
-   "_genesis_hide_title": false,
-   "_genesis_hide_breadcrumbs": false,
-   "_genesis_hide_singular_image": false,
-   "_genesis_hide_footer_widgets": false,
-   "_genesis_custom_body_class": "",
-   "_genesis_custom_post_class": "",
-   "_genesis_layout": "",
-   "footnotes": ""
-  },
+  "parent": 0,
+  "menu_order": 0,
   "categories": [
-   4
+   1
   ],
-  "tags": [],
-  "class_list": [
-   "post-2838",
-   "post",
-   "type-post",
-   "status-publish",
-   "format-standard",
-   "category-important",
-   "entry"
+  "tags": []
+ },
+ {
+  "id": 4537,
+  "date": "2025-12-09T18:38:02",
+  "date_gmt": "2025-12-09T18:38:02",
+  "slug": "62nd-anniversary-december-2025",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2025/12/09/62nd-anniversary-december-2025/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4537"
+  },
+  "title": {
+   "rendered": "62nd Anniversary December 2025"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>Pictures of the 62nd anniversary gathering at the Rising Sun, Epsom on 7th December, where the society was founded in December 1963 is now on the 'Photo Gallery' page 2.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
   ],
-  "_links": {
-   "self": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/2838",
-     "targetHints": {
-      "allow": [
-       "GET"
-      ]
-     }
-    }
-   ],
-   "collection": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts"
-    }
-   ],
-   "about": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/types/post"
-    }
-   ],
-   "author": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/users/10"
-    }
-   ],
-   "replies": [
-    {
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/comments?post=2838"
-    }
-   ],
-   "version-history": [
-    {
-     "count": 1,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/2838/revisions"
-    }
-   ],
-   "predecessor-version": [
-    {
-     "id": 2839,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/posts/2838/revisions/2839"
-    }
-   ],
-   "wp:attachment": [
-    {
-     "href": "https://www.spbw.beer/wp-json/wp/v2/media?parent=2838"
-    }
-   ],
-   "wp:term": [
-    {
-     "taxonomy": "category",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/categories?post=2838"
-    },
-    {
-     "taxonomy": "post_tag",
-     "embeddable": true,
-     "href": "https://www.spbw.beer/wp-json/wp/v2/tags?post=2838"
-    }
-   ],
-   "curies": [
-    {
-     "name": "wp",
-     "href": "https://api.w.org/{rel}",
-     "templated": true
-    }
-   ]
-  }
+  "tags": []
+ },
+ {
+  "id": 4586,
+  "date": "2025-12-16T18:48:48",
+  "date_gmt": "2025-12-16T18:48:48",
+  "slug": "cobra-cow-10th-anniversary",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2025/12/16/cobra-cow-10th-anniversary/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4586"
+  },
+  "title": {
+   "rendered": "Cobra-Cow 10th Anniversary"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>Photos of the 10th Anniversary party at the 'Blythe Hill Tavern', Catford now</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>in the 'Photo Gallery' page 2</p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 4593,
+  "date": "2025-12-17T09:12:34",
+  "date_gmt": "2025-12-17T09:12:34",
+  "slug": "society-history",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2025/12/17/society-history/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4593"
+  },
+  "title": {
+   "rendered": "Society History"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>A new main menu item 'Society History' has been added to the website.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>It gives timeline dates of major events in the 62 year history and a</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>fuller narrative of the Society's history. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Compiled by Roger Jacobson</p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 4609,
+  "date": "2025-12-25T10:20:23",
+  "date_gmt": "2025-12-25T10:20:23",
+  "slug": "seasonal-greetings",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2025/12/25/seasonal-greetings/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4609"
+  },
+  "title": {
+   "rendered": "Seasonal Greetings"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p><strong>To all SPBW members a Merry Christmas &amp; a good New Year</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Hopefully with plenty of Wassailing.</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 4643,
+  "date": "2026-01-06T11:36:02",
+  "date_gmt": "2026-01-06T11:36:02",
+  "slug": "mike-hall-ex-nat-chair-annual-memorial-walk-19th-january",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/01/06/mike-hall-ex-nat-chair-annual-memorial-walk-19th-january/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4643"
+  },
+  "title": {
+   "rendered": "Mike Hall (Ex Nat. Chair) Annual Memorial Walk - 19th January"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>Full details and directons between pubs is now up on the 'Upcoming Events' page. This is a national event for all branches, especially London branches</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 4664,
+  "date": "2026-01-13T11:58:20",
+  "date_gmt": "2026-01-13T11:58:20",
+  "slug": "annual-beer-curry-february-8th",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/01/13/annual-beer-curry-february-8th/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4664"
+  },
+  "title": {
+   "rendered": "Annual Beer &amp; Curry February 8th"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>Detailed itinerary is now in 'Upcoming Events' page</p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 4672,
+  "date": "2026-01-13T12:13:29",
+  "date_gmt": "2026-01-13T12:13:29",
+  "slug": "patrick-deller-dave-hewson-memorial-walk",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/01/13/patrick-deller-dave-hewson-memorial-walk/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4672"
+  },
+  "title": {
+   "rendered": "Patrick Deller/Dave Hewson Memorial Walk"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>The date of this event in May has been announced. See 'Upcoming Events' for preliminary details.</p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 4682,
+  "date": "2026-01-17T17:53:56",
+  "date_gmt": "2026-01-17T17:53:56",
+  "slug": "emmas-birthday-bash-10th-january-2026",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/01/17/emmas-birthday-bash-10th-january-2026/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4682"
+  },
+  "title": {
+   "rendered": "Emma's Birthday Bash - 10th January 2026"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>A photo of some of the 30 plus people who attended Emma's birthday 7 pub crawl bash in Hampstead, London NW3 is on 'Page 2' of the Photo Gallery.</p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 4690,
+  "date": "2026-01-18T04:13:47",
+  "date_gmt": "2026-01-18T04:13:47",
+  "slug": "6th-bill-english-dfeb-memorial-event-july-2026",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/01/18/6th-bill-english-dfeb-memorial-event-july-2026/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4690"
+  },
+  "title": {
+   "rendered": "6th Bill English (DFEB) Memorial Event - July 2026"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>A provisional date and venue for this annual event has been put on the 'Upcoming Events' page. Because it has been suggested we hold it on the continent, please look at the event and reply by mid February to the contact if you are interested. Only if sufficient people are interested will further arrangements be made.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 4711,
+  "date": "2026-01-24T07:19:40",
+  "date_gmt": "2026-01-24T07:19:40",
+  "slug": "mike-hall-memorial-event-19th-january",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/01/24/mike-hall-memorial-event-19th-january/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4711"
+  },
+  "title": {
+   "rendered": "Mike Hall Memorial Event - 19th January"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>A photo of the attendees for the Mike Hall (Ex Chair) memorial event is now up on page 2 of the</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>'Photo Gallery'</p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 4761,
+  "date": "2026-02-03T09:39:33",
+  "date_gmt": "2026-02-03T09:39:33",
+  "slug": "auto-draft",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/02/03/auto-draft/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4761"
+  },
+  "title": {
+   "rendered": "Products can be collected at the National AGM on 21st March 2026"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p><strong>This is a reminder that if you are attending the National AGM at the White Horse, London, SW6 4UL on 21st March you can collect products there, avoiding the cost of post and packing.</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Please email ‘</strong><strong><a href=\"mailto:products@spbw.beer\">products@spbw.beer</a>’ </strong><strong>with your order and you will be given the reduced prices and details of how to pay.</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>We do have a small amount of stock on hand, but anything else will need the usual 4 weeks notice to supply, so if you could please submit your order&nbsp;by</strong><strong>&nbsp;12 noon on Friday 20th&nbsp;February at the latest.&nbsp;</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>After that, you may be lucky and require something we already have in stock, so it is worth an email to find out.</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>(LA)</strong></p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 4808,
+  "date": "2026-02-18T09:56:17",
+  "date_gmt": "2026-02-18T09:56:17",
+  "slug": "york-wooden-cask-crawl",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/02/18/york-wooden-cask-crawl/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4808"
+  },
+  "title": {
+   "rendered": "York Wooden Cask Crawl"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>On 7th March a crawl around York has been arranged starting at the</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Golden Slipper at 2 PM. See 'Upcoming Events' for more details.</p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 4829,
+  "date": "2026-03-04T03:31:52",
+  "date_gmt": "2026-03-04T03:31:52",
+  "slug": "richard-graham-annual-memorial-dinner",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/03/04/richard-graham-annual-memorial-dinner/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4829"
+  },
+  "title": {
+   "rendered": "Richard Graham Annual Memorial Dinner"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>Ex SPBW National Chair &amp; Treasurer annual memorial dinner on Tuesday 28th April. Details on the Upcoming events page.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 4847,
+  "date": "2026-03-08T07:24:27",
+  "date_gmt": "2026-03-08T07:24:27",
+  "slug": "york-wood-crawl-march-2026",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/03/08/york-wood-crawl-march-2026/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4847"
+  },
+  "title": {
+   "rendered": "York Wood Crawl - March 2026"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>A couple of pictures now on website 'Photo Gallery' page 2</p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 4859,
+  "date": "2026-03-09T15:45:03",
+  "date_gmt": "2026-03-09T15:45:03",
+  "slug": "bill-english-dfeb-to-amsterdam-july-3rd-5th",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/03/09/bill-english-dfeb-to-amsterdam-july-3rd-5th/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4859"
+  },
+  "title": {
+   "rendered": "BIll English DFEB to Amsterdam July 3rd-5th"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>This is now definitely on. Please see more details on the 'Up Coming Events' page.</p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 4902,
+  "date": "2026-03-31T11:12:27",
+  "date_gmt": "2026-03-31T10:12:27",
+  "slug": "ex-pih-editors-roger-jacobson-macclesfield-meander",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/03/31/ex-pih-editors-roger-jacobson-macclesfield-meander/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4902"
+  },
+  "title": {
+   "rendered": "Ex PIH Editor's (Roger Jacobson) Macclesfield Meander"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p><strong>Photos of the Macclesfield Meander on 28th March 2026 are now up on Page 2</strong> <strong>of the 'Photo Gallery'</strong></p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 4914,
+  "date": "2026-04-02T11:22:29",
+  "date_gmt": "2026-04-02T10:22:29",
+  "slug": "woodfest-vi-information",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/04/02/woodfest-vi-information/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4914"
+  },
+  "title": {
+   "rendered": "Woodfest VI Information"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p><strong>Fuller details of Woodfest VI from 14th to 16th May on the 'Woodfests News &amp; Info' page.</strong></p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 4978,
+  "date": "2026-04-25T10:35:57",
+  "date_gmt": "2026-04-25T09:35:57",
+  "slug": "photo-gallery-update-april-2026",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/04/25/photo-gallery-update-april-2026/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=4978"
+  },
+  "title": {
+   "rendered": "Photo Gallery Update April 2026"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>A third page has been added to the Photo Gallery and the date range of the pages has been added to the title</p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 5017,
+  "date": "2026-04-29T09:15:36",
+  "date_gmt": "2026-04-29T08:15:36",
+  "slug": "woodfest-vi-beer-list",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/04/29/woodfest-vi-beer-list/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=5017"
+  },
+  "title": {
+   "rendered": "Woodfest VI Beer List"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>The beer list for the 6th Woodfest at the Musical Museum, Brentford from 14th to 16th May is now up on the website under banner heading 'Woodfest News &amp; Info'</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 5072,
+  "date": "2026-05-28T19:25:00",
+  "date_gmt": "2026-05-28T18:25:00",
+  "slug": "woodfest-vi-wbob-woodfest-beer-of-britain",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/05/28/woodfest-vi-wbob-woodfest-beer-of-britain/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=5072"
+  },
+  "title": {
+   "rendered": "Woodfest VI WBOB (Woodfest Beer of Britain)"
+  },
+  "content": {
+   "rendered": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Lightning Strikes Again - Tigertops Edwardian Porter wins in successive years</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p><strong>See Woodfest News &amp; Info</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 5101,
+  "date": "2026-05-29T08:33:43",
+  "date_gmt": "2026-05-29T07:33:43",
+  "slug": "woodfest-6-photos-in-photo-gallery",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/05/29/woodfest-6-photos-in-photo-gallery/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=5101"
+  },
+  "title": {
+   "rendered": "Woodfest 6 Photos in 'Photo Gallery"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>Some pictures from the May 2026 Woodfest 6 are now up on the 'Photo Gallery' Page 3</p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 5216,
+  "date": "2026-06-28T14:30:23",
+  "date_gmt": "2026-06-28T13:30:23",
+  "slug": "woodfest-6-voty-volunteer-of-the-year",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/06/28/woodfest-6-voty-volunteer-of-the-year/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=5216"
+  },
+  "title": {
+   "rendered": "Woodfest 6 VoTY (Volunteer of The Year)"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>At the Wash-Up Meeting for Woodfest 6 presentation of the VoTY to Wanda Piontek by last year's winner Angela Aspin.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Picture on Page 3 of the 'Photo Gallery'</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 5273,
+  "date": "2026-07-15T05:19:00",
+  "date_gmt": "2026-07-15T04:19:00",
+  "slug": "upcoming-events-update",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/07/15/upcoming-events-update/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=5273"
+  },
+  "title": {
+   "rendered": "Upcoming Events Update"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>The upcoming events page, including some of those in 2027, have now been added</p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 5326,
+  "date": "2026-07-17T04:28:56",
+  "date_gmt": "2026-07-17T03:28:56",
+  "slug": "bill-english-memorial-trip-to-amsterdam",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/07/17/bill-english-memorial-trip-to-amsterdam/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=5326"
+  },
+  "title": {
+   "rendered": "Bill English Memorial Trip to Amsterdam"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>Twelve pictures now up on the 'Photo Gallery' covering the 6th Bill English (DFEB) memorial</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>trip to Amsterdam July 3rd to 6th 2026</p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 5378,
+  "date": "2026-07-30T12:16:13",
+  "date_gmt": "2026-07-30T11:16:13",
+  "slug": "patrick-deller-dave-hewson-memorial-event",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/07/30/patrick-deller-dave-hewson-memorial-event/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=5378"
+  },
+  "title": {
+   "rendered": "Patrick Deller-Dave Hewson Memorial Event"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>There is now a photo of the subject May event on Page 3 of the 'Photo Gallery'</p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 5400,
+  "date": "2026-08-03T13:09:44",
+  "date_gmt": "2026-08-03T12:09:44",
+  "slug": "national-weekend-october-9th-to-11th",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/08/03/national-weekend-october-9th-to-11th/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=5400"
+  },
+  "title": {
+   "rendered": "National Weekend - October 9th to 11th"
+  },
+  "content": {
+   "rendered": "<!-- wp:paragraph -->\n<p>Further details about the subject event are now up on the 'Upcoming Events' page.</p>\n<!-- /wp:paragraph -->"
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
+ },
+ {
+  "id": 5511,
+  "date": "2026-09-17T12:13:03",
+  "date_gmt": "2026-09-17T11:13:03",
+  "slug": "tony-littler-quiz-phoenix-brewery-presentation-photos-now-on-page-3-of-the-photo-gallery",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.spbw.beer/2026/09/17/tony-littler-quiz-phoenix-brewery-presentation-photos-now-on-page-3-of-the-photo-gallery/",
+  "guid": {
+   "rendered": "https://www.spbw.beer/?p=5511"
+  },
+  "title": {
+   "rendered": "Tony Littler Quiz &amp; Phoenix Brewery Presentation Photos now on page 3 of the 'Photo Gallery'"
+  },
+  "content": {
+   "rendered": ""
+  },
+  "excerpt": {
+   "rendered": ""
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "categories": [
+   1
+  ],
+  "tags": []
  }
 ]

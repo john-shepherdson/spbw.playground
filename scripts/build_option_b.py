@@ -1,84 +1,108 @@
 #!/usr/bin/env python3
-"""Generate blueprints/option-b.json: baseline + The Events Calendar with real event dates.
+"""Generate blueprints/option-b.json: baseline + The Events Calendar fed from the live event tables.
 
-Event-category posts whose title or text contains a date become tribe_events
-(all-day, dated); the original post is removed and its URL kept in meta and in
-redirects/option-b.csv. Dates are heuristic (scripts/event_dates.py): the
-source ('title' or 'content') is stored in meta _spbw_date_source for review.
-Run classify_posts.py first.
+The hand-maintained tables on /upcoming-events/, /archived-events-and-meetings/ and the
+old /events/ page (Event, Date/Time, Venue, Details, Contact) become real events with
+dates, times and venues. Posts are left untouched as the announcement stream. The four
+overlapping events pages are retired. Writes config/option-b-events.json and
+redirects/option-b.csv. Run import_export.py (or the fetch scripts) first.
 """
 import csv
 import datetime as dt
-import html
+import difflib
 import json
 import pathlib
 import re
 import sys
+import zoneinfo
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
+from classify_posts import classify  # noqa: E402
+from event_tables import parse  # noqa: E402
 from structure import step as structure_step  # noqa: E402
-sys.path.insert(0, str(ROOT / "scripts"))
-from event_dates import extract  # noqa: E402
 
-NOT_EVENTS = re.compile(r"upcoming events|event details updated|events page now live|^update:", re.I)
+SOURCES = ["upcoming-events", "archived-events-and-meetings", "events"]  # priority order for duplicates
 RETIRED_PAGES = ["events", "upcoming-events", "archived-events-and-meetings", "bftw-pub-events"]
+CAT_TAGS = {"Woodfest", "National Weekend", "AGM", "Anniversary", "Memorial", "Social", "Walk", "Beer Festival", "Quiz"}
+TZ = zoneinfo.ZoneInfo("Europe/London")
+DEFAULT_HOURS = 3  # no end times in the source tables
 
 base = json.loads((ROOT / "blueprints" / "baseline.json").read_text())
-cls = json.loads((ROOT / "config" / "option-a-classification.json").read_text())
-
-events, redirects = {}, []
-for f in ("posts", "posts_archived"):
+pages = {}
+for f in ("pages", "pages_archived"):
     for p in json.loads((ROOT / "content" / f"{f}.json").read_text()):
-        c = cls[str(p["id"])]
-        title = html.unescape(p["title"]["rendered"])
-        if "Event" not in c["categories"] or NOT_EVENTS.search(title):
-            continue
-        start, end, src = extract(title, p["content"]["rendered"], dt.date.fromisoformat(p["date"][:10]))
-        if not start:
-            continue
-        events[p["slug"]] = {"start": start.isoformat(), "end": (end or start).isoformat(), "source": src,
-                             "url": p["link"],
-                             "cats": [x for x in c["categories"] if x != "Event"], "tags": c["tags"]}
-        redirects.append((p["link"].replace("https://www.spbw.beer", ""), f"/event/{p['slug']}/"))
-for s in RETIRED_PAGES:
-    redirects.append((f"/{s}/", "/events/"))
+        pages[p["slug"]] = p
 
-(ROOT / "config" / "option-b-events.json").write_text(json.dumps(events, indent=1))
+events, unparsed = [], []
+for s in SOURCES:
+    found, bad = parse(pages[s]["content"]["rendered"], s)
+    unparsed += bad
+    for e in found:
+        dup = any(o["start"] == e["start"] and difflib.SequenceMatcher(None, o["title"].lower(), e["title"].lower()).ratio() >= 0.45
+                  for o in events)
+        if not dup:
+            events.append(e)
+events.sort(key=lambda e: (e["start"], e["time"] or ""))
+
+out = []
+for e in events:
+    start = dt.date.fromisoformat(e["start"])
+    end = dt.date.fromisoformat(e["end"]) if e["end"] else start
+    if e["time"]:
+        hh, mm = map(int, e["time"].split(":"))
+        ls = dt.datetime.combine(start, dt.time(hh, mm), TZ)
+        le = ls + dt.timedelta(hours=DEFAULT_HOURS)
+        allday = False
+    else:
+        ls = dt.datetime.combine(start, dt.time(0, 0), TZ)
+        le = dt.datetime.combine(end, dt.time(23, 59, 59), TZ)
+        allday = True
+    utc = lambda d: d.astimezone(dt.timezone.utc).strftime("%Y-%m-%d %H:%M:%S")  # noqa: E731
+    name, _, addr = e["venue"].partition(",")
+    tags = [t for _, t in [(0, t) for t in classify(e["title"])[1]]]
+    out.append({"title": e["title"], "start": ls.strftime("%Y-%m-%d %H:%M:%S"), "end": le.strftime("%Y-%m-%d %H:%M:%S"),
+                "start_utc": utc(ls), "end_utc": utc(le), "all_day": allday, "tz_abbr": ls.tzname(),
+                "venue": name.strip(), "address": addr.strip(), "when": e["when"], "source": e["source"],
+                "date_check": "" if e["weekday_ok"] else "weekday does not match date in source",
+                "content": (f"<p><strong>When:</strong> {e['when']}</p>" + e["details"]
+                            + (f"<p><strong>Contact:</strong> {e['contact']}</p>" if e["contact"] else "")),
+                "tags": tags, "cats": [t for t in tags if t in CAT_TAGS]})
+
+(ROOT / "config" / "option-b-events.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
 (ROOT / "redirects").mkdir(exist_ok=True)
 with open(ROOT / "redirects" / "option-b.csv", "w", newline="") as fh:
     w = csv.writer(fh)
     w.writerow(["old_path", "new_path"])
-    w.writerows(redirects)
+    w.writerows([("/upcoming-events/", "/events/"), ("/archived-events-and-meetings/", "/events/list/?eventDisplay=past"),
+                 ("/bftw-pub-events/", "/events/list/?eventDisplay=past")])
 
 PHP = r"""<?php
 require '/wordpress/wp-load.php';
+update_option('timezone_string', 'Europe/London');
 $events = json_decode(<<<'JSON'
 __EVENTS__
 JSON
 , true);
-
-foreach ($events as $slug => $e) {
-    $posts = get_posts(['name' => $slug, 'post_type' => 'post', 'post_status' => 'any', 'numberposts' => 1]);
-    if (!$posts) { continue; }
-    $p = $posts[0];
-    $id = wp_insert_post([
-        'post_type' => 'tribe_events', 'post_status' => 'publish', 'post_title' => $p->post_title,
-        'post_content' => $p->post_content, 'post_name' => $slug, 'post_date' => $p->post_date,
-        'post_date_gmt' => $p->post_date_gmt,
-    ]);
+$venues = [];
+foreach ($events as $e) {
+    $vid = 0;
+    if ($e['venue'] !== '' && function_exists('tribe_create_venue')) {
+        $k = $e['venue'] . '|' . $e['address'];
+        if (!isset($venues[$k])) { $venues[$k] = tribe_create_venue(['Venue' => $e['venue'], 'Address' => $e['address'], 'ShowMap' => 'false']); }
+        $vid = $venues[$k];
+    }
+    $id = wp_insert_post(['post_type' => 'tribe_events', 'post_status' => 'publish', 'post_title' => $e['title'], 'post_content' => $e['content']]);
     if (!$id || is_wp_error($id)) { continue; }
-    $start = $e['start'] . ' 00:00:00';
-    $end = $e['end'] . ' 23:59:59';
-    $dur = strtotime($end) - strtotime($start);
+    $dur = strtotime($e['end_utc']) - strtotime($e['start_utc']);
     foreach ([
-        '_EventStartDate' => $start, '_EventEndDate' => $end, '_EventStartDateUTC' => $start, '_EventEndDateUTC' => $end,
-        '_EventDuration' => $dur, '_EventAllDay' => 'yes', '_EventTimezone' => 'UTC', '_EventTimezoneAbbr' => 'UTC',
-        '_spbw_date_source' => $e['source'], '_spbw_original_url' => $e['url'],
+        '_EventStartDate' => $e['start'], '_EventEndDate' => $e['end'], '_EventStartDateUTC' => $e['start_utc'],
+        '_EventEndDateUTC' => $e['end_utc'], '_EventDuration' => $dur, '_EventAllDay' => $e['all_day'] ? 'yes' : '',
+        '_EventTimezone' => 'Europe/London', '_EventTimezoneAbbr' => $e['tz_abbr'], '_EventVenueID' => $vid,
+        '_spbw_source_page' => $e['source'], '_spbw_date_text' => $e['when'], '_spbw_date_check' => $e['date_check'],
     ] as $k => $v) { update_post_meta($id, $k, $v); }
     if ($e['cats']) { wp_set_object_terms($id, $e['cats'], 'tribe_events_cat'); }
     if ($e['tags']) { wp_set_object_terms($id, $e['tags'], 'post_tag'); }
-    wp_delete_post($p->ID, true);
 }
 
 // Retire the overlapping hand-maintained events pages (301s: redirects/option-b.csv)
@@ -91,20 +115,23 @@ $sample = get_page_by_path('sample-page');
 if ($sample) { wp_delete_post($sample->ID, true); }
 flush_rewrite_rules();
 """
-php = PHP.replace("__EVENTS__", json.dumps(events)).replace("__RETIRED__", "[" + ",".join(f"'{s}'" for s in RETIRED_PAGES) + "]")
+php = PHP.replace("__EVENTS__", json.dumps(out, ensure_ascii=False)).replace(
+    "__RETIRED__", "[" + ",".join(f"'{s}'" for s in RETIRED_PAGES) + "]")
 
 bp = dict(base)
-bp["meta"] = {**base["meta"], "title": "SPBW Option B: The Events Calendar with dated events",
-              "description": "Baseline plus The Events Calendar. Dated posts become real events with Upcoming/Past views."}
+bp["meta"] = {**base["meta"], "title": "SPBW Option B: The Events Calendar fed from the event tables",
+              "description": "Baseline plus The Events Calendar. The hand-maintained event tables become real events."}
 bp["landingPage"] = "/events/"
 bp["steps"] = base["steps"] + [
     {"step": "installPlugin", "pluginData": {"resource": "wordpress.org/plugins", "slug": "the-events-calendar"},
      "options": {"activate": True}},
     {"step": "runPHP", "code": php},
 ]
-bp["steps"].append(structure_step({"url": "/events/", "children": [{"label": "Upcoming events", "url": "/events/"}, {"label": "Past events", "url": "/events/list/?eventDisplay=past"}, {"label": "National Weekend", "path": "national-and-regional-news/national-weekend"}]}))
+bp["steps"].append(structure_step({"url": "/events/", "children": [
+    {"label": "Upcoming events", "url": "/events/"}, {"label": "Past events", "url": "/events/list/?eventDisplay=past"},
+    {"label": "National Weekend", "path": "national-and-regional-news/national-weekend"}]}))
 (ROOT / "blueprints" / "option-b.json").write_text(json.dumps(bp, indent=2))
-src = {}
-for v in events.values():
-    src[v["source"]] = src.get(v["source"], 0) + 1
-print(f"{len(events)} events ({src}); {len(redirects)} redirects")
+withtime = sum(1 for e in out if not e["all_day"])
+print(f"{len(out)} events ({withtime} with a start time, {len(out) - withtime} all-day); "
+      f"{len({e['venue'] for e in out})} venues; {len(unparsed)} unparsed; "
+      f"{sum(1 for e in out if e['date_check'])} date flags")

@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Classify posts into categories and tags by title keywords (Option A).
+"""Classify still-uncategorised posts into categories and tags by title keywords (Option A).
+
+Posts that already have a real category on the live site are left exactly as
+they are. Only posts whose sole category is 'Uncategorised' are classified.
 
 Writes config/option-a-classification.json: {post_id: {"categories": [...], "tags": [...]}}
 and prints a summary. Rules are first-pass heuristics for editors to review,
-not a final taxonomy. Existing live categories (Important, Pictures, Website)
-are kept by the Blueprint; only 'Uncategorised' is replaced.
+not a final taxonomy.
 """
 import collections
 import html
@@ -64,8 +66,12 @@ if __name__ == "__main__":
     posts = []
     for f in ("posts", "posts_archived"):
         posts += json.loads((ROOT / "content" / f"{f}.json").read_text())
-    out, cc, tc = {}, collections.Counter(), collections.Counter()
+    names = {c["id"]: c["name"] for c in json.loads((ROOT / "content" / "categories.json").read_text())}
+    out, cc, tc, kept = {}, collections.Counter(), collections.Counter(), 0
     for p in sorted(posts, key=lambda x: x["date"]):
+        if {names.get(c) for c in p.get("categories", [])} - {"Uncategorised", None}:
+            kept += 1
+            continue
         title = html.unescape(p["title"]["rendered"])
         cats, tags = classify(title)
         out[str(p["id"])] = {"categories": cats, "tags": tags}
@@ -74,5 +80,6 @@ if __name__ == "__main__":
         if "--list" in __import__("sys").argv:
             print(f"{p['date'][:10]} {title[:60]:60} {cats} {tags}")
     (ROOT / "config" / "option-a-classification.json").write_text(json.dumps(out, indent=1))
+    print(f"kept existing categories on {kept} posts; classified {len(out)} uncategorised posts")
     print("categories:", dict(cc))
     print("tags:", dict(tc))

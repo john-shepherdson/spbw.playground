@@ -16,7 +16,8 @@ cls = json.loads((ROOT / "config" / "option-a-classification.json").read_text())
 by_slug = {}
 for f in ("posts", "posts_archived"):
     for p in json.loads((ROOT / "content" / f"{f}.json").read_text()):
-        by_slug[p["slug"]] = cls[str(p["id"])]
+        if str(p["id"]) in cls:
+            by_slug[p["slug"]] = cls[str(p["id"])]
 
 PHP = r"""<?php
 require '/wordpress/wp-load.php';
