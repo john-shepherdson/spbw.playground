@@ -59,7 +59,7 @@
     },
     {
       "step": "runPHP",
-      "code": "<?php\nrequire '/wordpress/wp-load.php';\nrequire_once ABSPATH . 'wp-admin/includes/image.php';\nforeach ({\"sample-1.png\": \"image/png\", \"sample-2.png\": \"image/png\", \"sample-3.png\": \"image/png\"} as $name => $mime) {\n    $path = '/wordpress/wp-content/uploads/spbw-samples/' . $name;\n    if (!file_exists($path)) { continue; }\n    $id = wp_insert_attachment([\n        'post_mime_type' => $mime, 'post_title' => pathinfo($name, PATHINFO_FILENAME),\n        'post_status' => 'inherit',\n    ], $path);\n    if ($id && !is_wp_error($id)) {\n        wp_update_attachment_metadata($id, wp_generate_attachment_metadata($id, $path));\n        update_post_meta($id, '_wp_attachment_image_alt', 'Sample image ' . pathinfo($name, PATHINFO_FILENAME));\n    }\n}\n"
+      "code": "<?php\nrequire '/wordpress/wp-load.php';\nrequire_once ABSPATH . 'wp-admin/includes/image.php';\nforeach ([\"sample-1.png\" => \"image/png\", \"sample-2.png\" => \"image/png\", \"sample-3.png\" => \"image/png\"] as $name => $mime) {\n    $path = '/wordpress/wp-content/uploads/spbw-samples/' . $name;\n    if (!file_exists($path)) { continue; }\n    $id = wp_insert_attachment([\n        'post_mime_type' => $mime, 'post_title' => pathinfo($name, PATHINFO_FILENAME),\n        'post_status' => 'inherit',\n    ], $path);\n    if ($id && !is_wp_error($id)) {\n        wp_update_attachment_metadata($id, wp_generate_attachment_metadata($id, $path));\n        update_post_meta($id, '_wp_attachment_image_alt', 'Sample image ' . pathinfo($name, PATHINFO_FILENAME));\n    }\n}\n"
     }
   ]
 }
