@@ -15,10 +15,10 @@ Python 3 (standard library only).
 
 ## Project Structure
 
-- `scripts/fetch_content.py` – pulls published posts, pages, categories, tags and media metadata from the spbw.beer REST API into `content/`.
-- `scripts/fetch_archived.py` – the live site uses a custom `archive` status that the REST API list hides, so this fetches those posts/pages by ID (found via the sitemap).
-- `scripts/build_wxr.py` – builds `wxr/spbw-baseline.xml` from `content/`. Archived items are imported as published with meta `_spbw_original_status=archive`.
-- `blueprints/baseline.json` – WordPress Playground Blueprint that imports the WXR into a stock WordPress.
+- `scripts/fetch_content.py` - pulls published posts, pages, categories, tags and media metadata from the spbw.beer REST API into `content/`.
+- `scripts/fetch_archived.py` - the live site uses a custom `archive` status that the REST API list hides, so this fetches those posts/pages by ID (found via the sitemap).
+- `scripts/build_wxr.py` - builds `wxr/spbw-baseline.xml` from `content/`. Archived items are imported as published with meta `_spbw_original_status=archive`.
+- `blueprints/baseline.json` - WordPress Playground Blueprint that imports the WXR into a stock WordPress.
 
 Refresh: run the three scripts in the order above.
 
