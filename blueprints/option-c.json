@@ -1,0 +1,37 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "meta": {
+    "title": "SPBW Option C: one hand-maintained Events hub",
+    "description": "Baseline plus a single canonical Events hub (Upcoming plus Past), no plugin. Posts stay as news.",
+    "author": "john-shepherdson"
+  },
+  "landingPage": "/events/",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
+  "login": true,
+  "steps": [
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "SPBW (baseline copy)",
+        "permalink_structure": "/%year%/%monthnum%/%day%/%postname%/"
+      }
+    },
+    {
+      "step": "importWxr",
+      "file": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/john-shepherdson/spbw.playground/main/wxr/spbw-baseline.xml"
+      }
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php\nrequire '/wordpress/wp-load.php';\n\nfunction spbw_page($slug) { return get_page_by_path($slug); }\n\n// Retire the stale pages first so the 'events' slug is free\nforeach (['events', 'bftw-pub-events'] as $s) {\n    $p = spbw_page($s);\n    if ($p) { wp_delete_post($p->ID, true); }\n}\n\n// Hub: upcoming-events -> /events/\n$hub = spbw_page('upcoming-events');\n$past = spbw_page('archived-events-and-meetings');\n$nw = get_page_by_path('national-and-regional-news-2/national-weekend');\n$wf = spbw_page('woodfests-news-info');\nif ($hub) {\n    $links = ['<a href=\"' . esc_url(home_url('/events/past/')) . '\">Past events</a>'];\n    if ($nw) { $links[] = '<a href=\"' . esc_url(get_permalink($nw)) . '\">National Weekend</a>'; }\n    if ($wf) { $links[] = '<a href=\"' . esc_url(get_permalink($wf)) . '\">Woodfests News &amp; Info</a>'; }\n    wp_update_post(['ID' => $hub->ID, 'post_title' => 'Events', 'post_name' => 'events',\n        'post_content' => '<p><strong>Event types and history:</strong> ' . implode(' | ', $links) . '</p>' . $hub->post_content]);\n    if ($past) {\n        wp_update_post(['ID' => $past->ID, 'post_title' => 'Past events', 'post_name' => 'past', 'post_parent' => $hub->ID]);\n    }\n}\n\n// Our History under About us\n$hist = spbw_page('society-history');\n$about = spbw_page('about-us');\nif ($hist && $about) {\n    wp_update_post(['ID' => $hist->ID, 'post_title' => 'Our History', 'post_name' => 'our-history', 'post_parent' => $about->ID]);\n}\n\nwp_delete_post(1, true);\n$sample = spbw_page('sample-page');\nif ($sample) { wp_delete_post($sample->ID, true); }\nflush_rewrite_rules();\n"
+    }
+  ]
+}
