@@ -53,7 +53,8 @@ for e in events:
     if e["time"]:
         hh, mm = map(int, e["time"].split(":"))
         ls = dt.datetime.combine(start, dt.time(hh, mm), TZ)
-        le = ls + dt.timedelta(hours=DEFAULT_HOURS)
+        le = (dt.datetime.combine(end, dt.time(23, 59, 59), TZ) if end > start
+              else ls + dt.timedelta(hours=DEFAULT_HOURS))
         allday = False
     else:
         ls = dt.datetime.combine(start, dt.time(0, 0), TZ)
@@ -66,7 +67,7 @@ for e in events:
                 "start_utc": utc(ls), "end_utc": utc(le), "all_day": allday, "tz_abbr": ls.tzname(),
                 "venue": name.strip(), "address": addr.strip(), "when": e["when"], "source": e["source"],
                 "date_check": "" if e["weekday_ok"] else "weekday does not match date in source",
-                "content": (f"<p><strong>When:</strong> {e['when']}</p>" + f"<div>{BR.sub('<br>' + chr(10), e['details'])}</div>"
+                "content": (f"<p><strong>When:</strong> {e['when']}</p>\n" + f"<div>{BR.sub('<br>' + chr(10), e['details'])}</div>\n"
                             + (f"<p><strong>Contact:</strong> {BR.sub('<br>' + chr(10), e['contact'])}</p>" if e["contact"] else "")),
                 "tags": tags, "cats": [t for t in tags if t in CAT_TAGS]})
 
