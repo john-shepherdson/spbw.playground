@@ -48,7 +48,7 @@ Each option is a Blueprint that rebuilds the site in your browser from the repo.
 
 Notes:
 
-- After pushing a changed Blueprint, GitHub's raw URL is cached for about 5 minutes. Add `?v=2` (any new value) to the end of the `blueprint-url` to force a fresh copy.
+- After pushing a changed Blueprint, GitHub's raw URL for `main` can serve the old file for about 5 minutes, and adding a query parameter does not help. To test straight away, use the commit hash in place of `main`, for example `https://raw.githubusercontent.com/john-shepherdson/spbw.playground/<commit-sha>/blueprints/option-a.json`.
 - Options A and C can be combined. Better categories help the whole site.
 - B converts 77 posts with a date found in the title or text; the date source is stored in meta `_spbw_date_source` for review. Venues, times and RSVP are not extracted.
 - A's classification is keyword-based and needs a human review.
