@@ -1,4 +1,4 @@
-# <REPO_NAME>
+# SPBW Playground configuration
 
 ## Contributors
 

@@ -1,8 +1,8 @@
 [![SQA badge](https://api.eu.badgr.io/public/assertions/<SQAaaS image ID>/image)](https://api.eu.badgr.io/public/badges/<SQAaaS badge ID>)
 
-# <REPO_NAME>
+# SPBW Playground configuration
 
-This repository contains the source code for <REPO_NAME>
+This repository contains the source code for SPBW Playground configuration
 
 ## Prerequisites
 
