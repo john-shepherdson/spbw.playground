@@ -23,8 +23,12 @@ Python 3 (standard library only).
 - `scripts/build_wxr.py` - builds `wxr/spbw-baseline.xml` from `content/`.
   Archived items are imported as published with meta
   `_spbw_original_status=archive`.
-- `blueprints/baseline.json` - WordPress Playground Blueprint that imports the
-  WXR into a stock WordPress.
+- `config/baseline-template.json` - the baseline Blueprint settings (PHP and
+  WordPress versions, site name, permalinks, WXR import).
+- `scripts/build_baseline.py` - generates `blueprints/baseline.json` from the
+  template, adding a step for each image in `media/`.
+- `media/` and `scripts/make_sample_media.py` - sample images loaded into the
+  Media Library, and the script that generated the placeholders.
 - `scripts/classify_posts.py` - keyword rules that assign categories and tags to
   posts (`config/option-a-classification.json`).
 - `scripts/event_dates.py` - heuristic extraction of event dates from post
@@ -39,7 +43,8 @@ Python 3 (standard library only).
   these are required.
 
 Refresh: run `fetch_content.py`, `fetch_archived.py` and `build_wxr.py`, then
-`classify_posts.py`, then the three `build_option_*.py` scripts.
+`build_baseline.py` and `classify_posts.py`, then the three `build_option_*.py`
+scripts.
 
 ## Options
 
@@ -96,6 +101,21 @@ Notes:
 [option B]: https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/john-shepherdson/spbw.playground/main/blueprints/option-b.json
 [option C]: https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/john-shepherdson/spbw.playground/main/blueprints/option-c.json
 
+## Media
+
+Playground keeps uploads inside the browser, so anything uploaded in a preview
+is lost when it closes, and it is not saved to this repository. To make images
+appear in every preview, add them to `media/` (PNG, JPEG, GIF or WebP), run
+`scripts/build_baseline.py` and the three `build_option_*.py` scripts, then
+commit and push. Each image is loaded into the Media Library when a preview
+starts. Three placeholder images (`sample-1.png` to `sample-3.png`) are
+included.
+
+Keep `media/` small: the images are downloaded every time a preview starts, and
+Git is not suited to large photo collections. The pages imported from spbw.beer
+still show their original images straight from the live site; they are not
+copied into the repository.
+
 ## Technology Stack
 
 - Python 3 (standard library only) for the fetch, classification and build
@@ -119,14 +139,16 @@ from public endpoints.
 - **Source site:** `scripts/fetch_content.py` takes `--base` (default
   `https://spbw.beer`). `scripts/fetch_archived.py` uses `https://www.spbw.beer`
   for sitemap and page requests; change `BASE` in the script to point elsewhere.
-- **Blueprint settings:** `blueprints/baseline.json` sets PHP 8.3, the latest
-  WordPress, networking on, the site name, and the date-based permalink
-  structure `/%year%/%monthnum%/%day%/%postname%/`. The other options are
-  generated from it, so change it there and rebuild.
-- **WXR location:** the baseline Blueprint loads `wxr/spbw-baseline.xml` from
-  `raw.githubusercontent.com/john-shepherdson/spbw.playground/main/`. If the
-  repository is renamed, forked or made private, update that URL in
-  `blueprints/baseline.json`.
+- **Blueprint settings:** `config/baseline-template.json` sets PHP 8.3, the
+  latest WordPress, networking on, the site name, and the date-based permalink
+  structure `/%year%/%monthnum%/%day%/%postname%/`. `blueprints/baseline.json`
+  and the other options are generated from it, so change it there and rebuild.
+- **WXR and media location:** the baseline Blueprint loads
+  `wxr/spbw-baseline.xml` from
+  `raw.githubusercontent.com/john-shepherdson/spbw.playground/main/`, and
+  `scripts/build_baseline.py` loads `media/` from the same place. If the
+  repository is renamed, forked or made private, update the URL in
+  `config/baseline-template.json` and `RAW` in `scripts/build_baseline.py`.
 - **Post categories and tags (Option A):** edit the keyword rules in
   `scripts/classify_posts.py`; the output is
   `config/option-a-classification.json`.

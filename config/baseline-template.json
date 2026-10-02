@@ -1,0 +1,28 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "meta": {
+    "title": "SPBW baseline copy",
+    "description": "Public content of spbw.beer (posts and pages, including archived) imported into a stock WordPress. Prototype only.",
+    "author": "john-shepherdson"
+  },
+  "landingPage": "/wp-admin/edit.php?post_type=page",
+  "preferredVersions": { "php": "8.3", "wp": "latest" },
+  "features": { "networking": true },
+  "login": true,
+  "steps": [
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "SPBW (baseline copy)",
+        "permalink_structure": "/%year%/%monthnum%/%day%/%postname%/"
+      }
+    },
+    {
+      "step": "importWxr",
+      "file": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/john-shepherdson/spbw.playground/main/wxr/spbw-baseline.xml"
+      }
+    }
+  ]
+}

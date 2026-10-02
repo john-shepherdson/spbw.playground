@@ -30,6 +30,38 @@
       }
     },
     {
+      "step": "mkdir",
+      "path": "/wordpress/wp-content/uploads/spbw-samples"
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/uploads/spbw-samples/sample-1.png",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/john-shepherdson/spbw.playground/main/media/sample-1.png"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/uploads/spbw-samples/sample-2.png",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/john-shepherdson/spbw.playground/main/media/sample-2.png"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/uploads/spbw-samples/sample-3.png",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/john-shepherdson/spbw.playground/main/media/sample-3.png"
+      }
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php\nrequire '/wordpress/wp-load.php';\nrequire_once ABSPATH . 'wp-admin/includes/image.php';\nforeach ({\"sample-1.png\": \"image/png\", \"sample-2.png\": \"image/png\", \"sample-3.png\": \"image/png\"} as $name => $mime) {\n    $path = '/wordpress/wp-content/uploads/spbw-samples/' . $name;\n    if (!file_exists($path)) { continue; }\n    $id = wp_insert_attachment([\n        'post_mime_type' => $mime, 'post_title' => pathinfo($name, PATHINFO_FILENAME),\n        'post_status' => 'inherit',\n    ], $path);\n    if ($id && !is_wp_error($id)) {\n        wp_update_attachment_metadata($id, wp_generate_attachment_metadata($id, $path));\n        update_post_meta($id, '_wp_attachment_image_alt', 'Sample image ' . pathinfo($name, PATHINFO_FILENAME));\n    }\n}\n"
+    },
+    {
       "step": "runPHP",
       "code": "<?php\nrequire '/wordpress/wp-load.php';\n\nfunction spbw_page($slug) { return get_page_by_path($slug); }\n\n// Retire the stale pages first so the 'events' slug is free\nforeach (['events', 'bftw-pub-events'] as $s) {\n    $p = spbw_page($s);\n    if ($p) { wp_delete_post($p->ID, true); }\n}\n\n// Hub: upcoming-events -> /events/\n$hub = spbw_page('upcoming-events');\n$past = spbw_page('archived-events-and-meetings');\n$nw = get_page_by_path('national-and-regional-news-2/national-weekend');\n$wf = spbw_page('woodfests-news-info');\nif ($hub) {\n    $links = ['<a href=\"' . esc_url(home_url('/events/past/')) . '\">Past events</a>'];\n    if ($nw) { $links[] = '<a href=\"' . esc_url(get_permalink($nw)) . '\">National Weekend</a>'; }\n    if ($wf) { $links[] = '<a href=\"' . esc_url(get_permalink($wf)) . '\">Woodfests News &amp; Info</a>'; }\n    wp_update_post(['ID' => $hub->ID, 'post_title' => 'Events', 'post_name' => 'events',\n        'post_content' => '<p><strong>Event types and history:</strong> ' . implode(' | ', $links) . '</p>' . $hub->post_content]);\n    if ($past) {\n        wp_update_post(['ID' => $past->ID, 'post_title' => 'Past events', 'post_name' => 'past', 'post_parent' => $hub->ID]);\n    }\n}\n\n// Our History under About us\n$hist = spbw_page('society-history');\n$about = spbw_page('about-us');\nif ($hist && $about) {\n    wp_update_post(['ID' => $hist->ID, 'post_title' => 'Our History', 'post_name' => 'our-history', 'post_parent' => $about->ID]);\n}\n\nwp_delete_post(1, true);\n$sample = spbw_page('sample-page');\nif ($sample) { wp_delete_post($sample->ID, true); }\nflush_rewrite_rules();\n"
     },
