@@ -27,6 +27,7 @@ RETIRED_PAGES = ["events", "upcoming-events", "archived-events-and-meetings", "b
 CAT_TAGS = {"Woodfest", "National Weekend", "AGM", "Anniversary", "Memorial", "Social", "Walk", "Beer Festival", "Quiz"}
 TZ = zoneinfo.ZoneInfo("Europe/London")
 DEFAULT_HOURS = 3  # no end times in the source tables
+BR = re.compile(r"<br\s*/?>")
 
 base = json.loads((ROOT / "blueprints" / "baseline.json").read_text())
 pages = {}
@@ -65,8 +66,8 @@ for e in events:
                 "start_utc": utc(ls), "end_utc": utc(le), "all_day": allday, "tz_abbr": ls.tzname(),
                 "venue": name.strip(), "address": addr.strip(), "when": e["when"], "source": e["source"],
                 "date_check": "" if e["weekday_ok"] else "weekday does not match date in source",
-                "content": (f"<p><strong>When:</strong> {e['when']}</p>" + e["details"]
-                            + (f"<p><strong>Contact:</strong> {e['contact']}</p>" if e["contact"] else "")),
+                "content": (f"<p><strong>When:</strong> {e['when']}</p>" + f"<div>{BR.sub('<br>' + chr(10), e['details'])}</div>"
+                            + (f"<p><strong>Contact:</strong> {BR.sub('<br>' + chr(10), e['contact'])}</p>" if e["contact"] else "")),
                 "tags": tags, "cats": [t for t in tags if t in CAT_TAGS]})
 
 (ROOT / "config" / "option-b-events.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
