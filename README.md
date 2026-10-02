@@ -90,11 +90,13 @@ Notes:
   ```
 
 - Options A and C can be combined. Better categories help the whole site.
-- B builds 66 events from the live event tables (about 50 with a start time, the
-  rest all-day), with venues. Dates are parsed from free text and one weekday
-  mismatch in the source is flagged in meta `_spbw_date_check`. End times are
-  not in the source, so timed events default to three hours. Posts are left as
-  they are.
+- B builds 65 events from the live event tables (51 with a start time, the rest
+  all-day), with venues. Dates are parsed from free text and checked against the
+  weekday named in the source. A duplicate whose date failed that check (a typo
+  in the source) is dropped, and two events whose source gives alternative dates
+  ("18th or 19th") use the first date and are flagged in meta
+  `_spbw_date_check`. End times are not in the source, so timed events default
+  to three hours. Posts are left as they are.
 - A keeps the categories editors have already assigned (83 posts) and classifies
   only the 53 still Uncategorised, using keyword rules that need a human review.
 - All options also apply the structure step: Photo Gallery slugs
@@ -164,7 +166,7 @@ from public endpoints.
 - **Post categories and tags (Option A):** edit the keyword rules in
   `scripts/classify_posts.py`; the output is
   `config/option-a-classification.json`.
-- **Events (Option B):** the 66 events, their dates, venues and source page are
+- **Events (Option B):** the 65 events, their dates, venues and source page are
   in `config/option-b-events.json`. Parsing rules are in
   `scripts/event_tables.py`, duplicate handling and the three-hour default
   length are in `scripts/build_option_b.py`, along with `RETIRED_PAGES`, the

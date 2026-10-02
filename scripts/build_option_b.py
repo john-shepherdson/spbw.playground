@@ -44,6 +44,17 @@ for s in SOURCES:
                   for o in events)
         if not dup:
             events.append(e)
+# A date that fails its own weekday check, next to a similar event a few days away, is a typo duplicate
+typo_dups = []
+for e in list(events):
+    if e["weekday_ok"]:
+        continue
+    near = [o for o in events if o is not e and o["weekday_ok"]
+            and abs((dt.date.fromisoformat(o["start"]) - dt.date.fromisoformat(e["start"])).days) <= 3
+            and difflib.SequenceMatcher(None, o["title"].lower(), e["title"].lower()).ratio() >= 0.4]
+    if near:
+        events.remove(e)
+        typo_dups.append((e["title"], e["start"], near[0]["start"]))
 events.sort(key=lambda e: (e["start"], e["time"] or ""))
 
 out = []
@@ -66,7 +77,8 @@ for e in events:
     out.append({"title": e["title"], "start": ls.strftime("%Y-%m-%d %H:%M:%S"), "end": le.strftime("%Y-%m-%d %H:%M:%S"),
                 "start_utc": utc(ls), "end_utc": utc(le), "all_day": allday, "tz_abbr": ls.tzname(),
                 "venue": name.strip(), "address": addr.strip(), "when": e["when"], "source": e["source"],
-                "date_check": "" if e["weekday_ok"] else "weekday does not match date in source",
+                "date_check": "; ".join(x for x in ["" if e["weekday_ok"] else "weekday does not match date in source",
+                                                    "source gives alternative dates, first one used" if e["alternatives"] else ""] if x),
                 "content": (f"<p><strong>When:</strong> {e['when']}</p>\n" + f"<div>{BR.sub('<br>' + chr(10), e['details'])}</div>\n"
                             + (f"<p><strong>Contact:</strong> {BR.sub('<br>' + chr(10), e['contact'])}</p>" if e["contact"] else "")),
                 "tags": tags, "cats": [t for t in tags if t in CAT_TAGS]})
@@ -134,6 +146,8 @@ bp["steps"].append(structure_step({"url": "/events/", "children": [
     {"label": "National Weekend", "path": "national-and-regional-news/national-weekend"}]}))
 (ROOT / "blueprints" / "option-b.json").write_text(json.dumps(bp, indent=2))
 withtime = sum(1 for e in out if not e["all_day"])
+for t, d, kept in typo_dups:
+    print(f"dropped probable typo duplicate: {t!r} on {d} (kept {kept})")
 print(f"{len(out)} events ({withtime} with a start time, {len(out) - withtime} all-day); "
       f"{len({e['venue'] for e in out})} venues; {len(unparsed)} unparsed; "
       f"{sum(1 for e in out if e['date_check'])} date flags")

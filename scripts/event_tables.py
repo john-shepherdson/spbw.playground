@@ -20,6 +20,7 @@ MON_DAY = re.compile(r"\b" + MON + r"\s+(\d{1,2})" + ORD + r"\b", re.I)
 DAY_ONLY = re.compile(r"\b(\d{1,2})\s*(?:st|nd|rd|th)\b", re.I)
 TIME_COLON = re.compile(r"\b(\d{1,2})[.:](\d{2})\b")
 TIME_AMPM = re.compile(r"\b(\d{1,2})(?:[.:](\d{2}))?\s*(am|pm)\b", re.I)
+ALT = re.compile(r"(\d{1,2})(?:\s*(?:st|nd|rd|th))?\s+or\s+\d{1,2}", re.I)
 HEAD = re.compile(r"<h[1-6][^>]*>\s*" + MON + r"\s+(20\d\d)\s*</h[1-6]>", re.I)
 
 
@@ -48,7 +49,7 @@ def _time(s):
     return None
 
 
-def _date(s, hy, hm):
+def _date(s, hy, hm, alt=False):
     """Return (start, end, weekday_ok) or None. hy/hm: heading year and month."""
     mon = day = end_day = None
     r = RANGE.search(s)
@@ -64,7 +65,11 @@ def _date(s, hy, hm):
     if r and int(r.group(1)) == day and int(r.group(2)) > day:
         end_day = int(r.group(2))
     days = [int(x) for x in DAY_ONLY.findall(s)]
-    if len(days) > 1 and mon and max(days) - min(days) <= 7 and end_day is None:  # e.g. 29th, 30th & 31st May
+    if alt:  # "18th or 19th": alternatives, so keep the first day only
+        day, end_day = int(ALT.search(s).group(1)), None
+        any_mon = re.search(MON, s, re.I)
+        mon = MONTHS[any_mon.group(1).lower()] if any_mon else mon
+    elif len(days) > 1 and mon and max(days) - min(days) <= 7 and end_day is None:  # e.g. 29th, 30th & 31st May
         day, end_day = min(days), max(days)
     wd = next((WEEKDAYS[w] for w in WEEKDAYS if re.search(r"\b" + w, s, re.I)), None)
     for year in (hy, hy - 1, hy + 1):
@@ -99,7 +104,8 @@ def parse(page_html, source):
             continue
         title = text(rows["event"])
         when = text(rows.get("date/time", rows.get("date", "")))
-        found = _date(when, hy, hm) or _date(title, hy, hm)
+        alt = bool(ALT.search(when))
+        found = _date(when, hy, hm, alt) or _date(title, hy, hm)
         if not found:
             bad.append((source, title, when))
             continue
@@ -107,5 +113,5 @@ def parse(page_html, source):
         events.append({"title": title, "start": start.isoformat(), "end": end.isoformat() if end else None,
                        "time": (_time(when) or dt.time(0, 0)).strftime("%H:%M") if _time(when) else None,
                        "when": when, "venue": text(rows.get("venue", "")), "details": rows.get("details", ""),
-                       "contact": rows.get("contact", ""), "source": source, "weekday_ok": ok})
+                       "contact": rows.get("contact", ""), "source": source, "weekday_ok": ok, "alternatives": alt})
     return events, bad

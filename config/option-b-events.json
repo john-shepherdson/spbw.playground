@@ -653,25 +653,6 @@
   "cats": []
  },
  {
-  "title": "Beer and Curry",
-  "start": "2026-02-10 00:00:00",
-  "end": "2026-02-10 23:59:59",
-  "start_utc": "2026-02-10 00:00:00",
-  "end_utc": "2026-02-10 23:59:59",
-  "all_day": true,
-  "tz_abbr": "GMT",
-  "venue": "",
-  "address": "",
-  "when": "Sunday 10 th February 2026",
-  "source": "events",
-  "date_check": "weekday does not match date in source",
-  "content": "<p><strong>When:</strong> Sunday 10 th February 2026</p>\n<div>Various other pubs finishing at the Pride of Spitalifields</div>\n<p><strong>Contact:</strong> <a href=\"rogerjacobson06@aol.com\">Roger Jacobson</a></p>",
-  "tags": [
-   "Beer and Curry"
-  ],
-  "cats": []
- },
- {
   "title": "South Preservation Society Branch AGM",
   "start": "2026-02-15 15:00:00",
   "end": "2026-02-15 18:00:00",
@@ -738,16 +719,16 @@
  {
   "title": "Mike Hall memorial walk",
   "start": "2026-03-18 19:00:00",
-  "end": "2026-03-19 23:59:59",
+  "end": "2026-03-18 22:00:00",
   "start_utc": "2026-03-18 19:00:00",
-  "end_utc": "2026-03-19 23:59:59",
+  "end_utc": "2026-03-18 22:00:00",
   "all_day": false,
   "tz_abbr": "GMT",
   "venue": "Red Lion",
   "address": "Crown Passage",
   "when": "18 th or 19 th March - 7 PM",
   "source": "events",
-  "date_check": "",
+  "date_check": "source gives alternative dates, first one used",
   "content": "<p><strong>When:</strong> 18 th or 19 th March - 7 PM</p>\n<div>More details from Campden Hill branch</div>\n",
   "tags": [
    "Memorial",
@@ -1172,16 +1153,16 @@
  {
   "title": "Campden Hill Branch St Martinmas Goose Dinner",
   "start": "2026-11-10 18:30:00",
-  "end": "2026-11-11 23:59:59",
+  "end": "2026-11-10 21:30:00",
   "start_utc": "2026-11-10 18:30:00",
-  "end_utc": "2026-11-11 23:59:59",
+  "end_utc": "2026-11-10 21:30:00",
   "all_day": false,
   "tz_abbr": "GMT",
   "venue": "Bohemia House Restaurant & Bar",
   "address": "74 West End Lane, West Hampstead, NW6 2LX - Meal 8 PMish Meet 'Railway Tavern', West Hampstead 6.30 PM",
   "when": "10th or 11th November - 6.30 PM",
   "source": "upcoming-events",
-  "date_check": "",
+  "date_check": "source gives alternative dates, first one used",
   "content": "<p><strong>When:</strong> 10th or 11th November - 6.30 PM</p>\n<div></div>\n<p><strong>Contact:</strong> Peter Chutter treasurer@spbw.beer</p>",
   "tags": [
    "Campden Hill"
