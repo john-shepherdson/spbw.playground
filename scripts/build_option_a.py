@@ -5,8 +5,11 @@ Run classify_posts.py first. Posts are matched by slug (IDs can change on import
 """
 import json
 import pathlib
+import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from structure import step as structure_step  # noqa: E402
 base = json.loads((ROOT / "blueprints" / "baseline.json").read_text())
 cls = json.loads((ROOT / "config" / "option-a-classification.json").read_text())
 
@@ -64,5 +67,6 @@ bp["meta"] = {**base["meta"], "title": "SPBW Option A: categories and tags drive
               "description": "Baseline plus a real taxonomy and an auto-populated Events Hub page (Query Loop). No plugins."}
 bp["landingPage"] = "/events-hub/"
 bp["steps"] = base["steps"] + [step]
+bp["steps"].append(structure_step({"url": "/events-hub/", "children": [{"label": "National Weekend", "path": "national-and-regional-news-2/national-weekend"}]}))
 (ROOT / "blueprints" / "option-a.json").write_text(json.dumps(bp, indent=2))
 print("wrote blueprints/option-a.json with", len(by_slug), "posts mapped")

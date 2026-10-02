@@ -17,6 +17,8 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
+from structure import step as structure_step  # noqa: E402
+sys.path.insert(0, str(ROOT / "scripts"))
 from event_dates import extract  # noqa: E402
 
 NOT_EVENTS = re.compile(r"upcoming events|event details updated|events page now live|^update:", re.I)
@@ -100,6 +102,7 @@ bp["steps"] = base["steps"] + [
      "options": {"activate": True}},
     {"step": "runPHP", "code": php},
 ]
+bp["steps"].append(structure_step({"url": "/events/", "children": [{"label": "Upcoming events", "url": "/events/"}, {"label": "Past events", "url": "/events/list/?eventDisplay=past"}, {"label": "National Weekend", "path": "national-and-regional-news-2/national-weekend"}]}))
 (ROOT / "blueprints" / "option-b.json").write_text(json.dumps(bp, indent=2))
 src = {}
 for v in events.values():

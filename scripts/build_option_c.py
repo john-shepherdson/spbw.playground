@@ -11,8 +11,11 @@ Posts are untouched and stay the announcement stream. Writes redirects/option-c.
 import csv
 import json
 import pathlib
+import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from structure import step as structure_step  # noqa: E402
 base = json.loads((ROOT / "blueprints" / "baseline.json").read_text())
 
 PHP = r"""<?php
@@ -60,6 +63,7 @@ bp["meta"] = {**base["meta"], "title": "SPBW Option C: one hand-maintained Event
               "description": "Baseline plus a single canonical Events hub (Upcoming plus Past), no plugin. Posts stay as news."}
 bp["landingPage"] = "/events/"
 bp["steps"] = base["steps"] + [{"step": "runPHP", "code": PHP}]
+bp["steps"].append(structure_step({"url": "/events/", "children": [{"label": "Upcoming events", "url": "/events/"}, {"label": "Past events", "url": "/events/past/"}, {"label": "National Weekend", "path": "national-and-regional-news-2/national-weekend"}]}))
 (ROOT / "blueprints" / "option-c.json").write_text(json.dumps(bp, indent=2))
 
 rows = [("/upcoming-events/", "/events/"),
